@@ -1,9 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: F6F6FA;
-  padding-left: 40px;
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
+  padding: 40px 60px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -11,6 +13,12 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .wrapper {
@@ -34,19 +42,20 @@ ol {
 }
 
 
-    .lang-switch {
-        position: fixed;
-        top: 12px;
-        right: 16px;
-        z-index: 1000;
-      }
-      .lang-switch select {
-        font-family: "Montserrat", sans-serif;
-        padding: 6px 10px;
-        border-radius: 6px;
-        border: 1px solid #ccc;
-        background: #fff;
-      }
+/* .lang-switch {
+  position: fixed;
+  top: 12px;
+  right: 16px;
+  z-index: 1000;
+} */
+
+.lang-switch select {
+  font-family: "Montserrat", sans-serif;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
 
 .my-profesion {
   font-weight: 700;
@@ -299,4 +308,19 @@ ol {
 
 .s-skills {
   margin-bottom: 40px;
+}
+
+
+.back-btn {
+  margin: 20px;
+}
+
+.back-btn a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+}
+
+.back-btn a:hover {
+  text-decoration: underline;
 }

@@ -1,4 +1,7 @@
 {
+  "ui": {
+  "back": "< На головну"
+},
   "header": {
     "profession": "Друкар офсетного друку<br />Front-End Developer",
     "name": "Marian Narozhniak",
@@ -8,7 +11,7 @@
     "title": "Досвід роботи",
     "company1": {
       "title": "Друкар, практикант <span class=\"company-name\">Mint of the National of Ukraine</span>",
-      "meta": "10.2007 - 04.2008 <span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ",
+      "meta": "10.2007 - 04.2008 <span class=\"location\"></span>Україна<span class=\"location\"></span>Київ",
       "machines_html": "<li class=\"job-posicion\">KBA Intaglio</li><li class=\"job-posicion\">KBA Super Simultan</li><li class=\"job-posicion\">KBA Nota Screen</li><li class=\"job-posicion\">KBA Numerrota</li>",
       "points_html": "<li class=\"job-posicion\">Допомога в моніторингу процесу виробництва друкованих матеріалів, забезпечення дотримання стандартів якості.</li><li class=\"job-posicion\">Вивчав основи експлуатації та обслуговування друкарського обладнання під наглядом фахівців.</li><li class=\"job-posicion\">Співпраця з досвідченими професіоналами, щоб отримати розуміння технології друку та елементи захисту.</li><li class=\"job-posicion\">Сприяв підготовці матеріалів та забезпеченню готовності для виробничих процесів.</li>"
     },

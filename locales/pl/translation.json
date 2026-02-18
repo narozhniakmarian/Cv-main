@@ -1,4 +1,7 @@
 {
+  "ui": {
+  "back": "< Strona główna"
+},
   "header": {
     "profession": "Drukarz offsetowy<br />Front-End Developer",
     "name": "Marian Narozhniak",

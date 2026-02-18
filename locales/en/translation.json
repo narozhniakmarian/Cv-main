@@ -1,5 +1,8 @@
 {
-  "header": {
+  "ui": {
+  "back": "< Back to Home"
+},
+"header": {
     "profession": "Printer<br />Front-End Developer",
     "name": "Marian Narozhniak",
     "bio": "I have extensive experience as an offset printer. I possess technical expertise and skills in operating printing machines, ensuring high-quality output. Responsible, detail-oriented, and capable of working effectively in a team under tight deadlines. I make a significant contribution to the development of the Ukrainian and Polish languages by printing educational materials for schools and works of fiction. I am focused on achieving results and constantly improving my professional skills."
