@@ -11,31 +11,31 @@
     "title": "DOSWIADCZENIE",
     "company1": {
       "title": "Durkarz, praktyki <span class=\"company-name\">Mennica Narodowa Ukrainy</span>",
-      "meta": "10.2007 - 04.2008 <span class=\"location\">|</span>Ukraina<span class=\"location\">|</span>Kijew",
+      "meta": "10.2007 - 04.2008 <span class=\"location\">\u00A0</span>Ukraina<span class=\"location\">\u00A0 </span>Kijew",
       "machines_html": "<li class=\"job-posicion\">KBA Intaglio</li><li class=\"job-posicion\">KBA Super Simultan</li><li class=\"job-posicion\">KBA Nota Screen</li><li class=\"job-posicion\">KBA Numerrota</li>",
       "points_html": "<li class=\"job-posicion\">Pomagał w monitorowaniu procesu produkcji materiałów drukowanych, zapewniając spełnienie standardów jakościowych.</li><li class=\"job-posicion\">Poznałem podstawy obsługi i konserwacji sprzętu drukarskiego pod nadzorem eksperta.</li><li class=\"job-posicion\">Współpracowałem z doświadczonymi specjalistami, aby uzyskać wgląd w technologię drukowania i funkcje bezpieczeństwa.</li><li class=\"job-posicion\">Praktykowane zarządzanie czasem i dbałość o szczegóły w wysoce regulowanym środowisku produkcyjnym.</li><li class=\"job-posicion\">Przyczynił się do przygotowania materiałów i zapewnił gotowość do procesów produkcyjnych.</li>"
     },
     "company2": {
       "title": "Durkarz <span class=\"company-name\">Universal Druk</span>",
-      "meta": "04.2008 - 10.2008 <span class=\"location\">|</span>Ukraina<span class=\"location\">|</span>Kijew",
+      "meta": "04.2008 - 10.2008 <span class=\"location\">\u00A0</span>Ukraina<span class=\"location\">\u00A0 </span>Kijew",
       "machines_html": "<li class=\"job-posicion\">Heidelberg GTO-52-5</li><li class=\"job-posicion\">Komori Litron B2</li>",
       "points_html": "<li class=\"job-posicion\">Zapoznałem się z technologiami druku retro oraz wytwarzaniem płyt offsetowych metodą ksero-ramki.</li><li class=\"job-posicion\">Współpracował z członkami zespołu w celu optymalizacji procesów i dotrzymywania terminów</li><li class=\"job-posicion\">Nauczyłem się tworzyć i mieszać farby offsetowe, które po połączeniu tworzą Pantone C| U.</li>"
     },
     "company3": {
       "title": "Starszy Durkarz <span class=\"company-name\">Triada-print</span>",
-      "meta": "02.2009 - 11.2009 <span class=\"location\">|</span>Ukraina<span class=\"location\">|</span>Kijew",
+      "meta": "02.2009 - 11.2009 <span class=\"location\">\u00A0</span>Ukraina<span class=\"location\">\u00A0 </span>Kijew",
       "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
       "points_html": "<li class=\"job-posicion\">Zarządzał harmonogramami produkcji i zapewniał wysokiej jakości wydrukowanej produkcji.</li><li class=\"job-posicion\">Współpraca z członkami zespołu w celu optymalizacji procesów i dotrzymywania terminów</li><li class=\"job-posicion\">Wykazana zdolność adaptacji i szybka nauka w dynamicznym środowisku.</li>"
     },
     "company4": {
       "title": "Starszy Durkarz <span class=\"company-name\">Hamma-print</span>",
-      "meta": "11.2010 - 07.2015<span class=\"location\">|</span>Ukraina<span class=\"location\">|</span>Kijew",
+      "meta": "11.2010 - 07.2015 <span class=\"location\">\u00A0</span>Ukraina<span class=\"location\">\u00A0 </span>Kijew",
       "machines_html": "<li class=\"job-posicion\">Heidelberg SM-74-5+L</li><li class=\"job-posicion\">Heidelberg SM-102-5</li>",
       "points_html": "<li class=\"job-posicion\">Zarządzał harmonogramami produkcji i zapewniał wysokiej jakości wydrukowanej produkcji.</li><li class=\"job-posicion\">Współpraca z członkami zespołu w celu optymalizacji procesów i dotrzymywania terminów</li><li class=\"job-posicion\">Wykazana zdolność adaptacji i szybka nauka w dynamicznym środowisku.</li>"
     },
     "company5": {
       "title": "Starszy Durkarz <span class=\"company-name\">Opolgraf Printing House</span>",
-      "meta": "12.2021 - Present <span class=\"location\">|</span>Polska<span class=\"location\">|</span>Opole",
+      "meta": "12.2021 - Present <span class=\"location\">\u00A0</span>Polska<span class=\"location\">\u00A0 </span>Opole",
       "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
       "points_html": "<li class=\"job-posicion\">Zarządzał harmonogramami produkcji i zapewniał wysokiej jakości wydrukowanej produkcji.</li><li class=\"job-posicion\">Współpracował z członkami zespołu w celu optymalizacji procesów i dotrzymywania terminów</li><li class=\"job-posicion\">Wykazana zdolność adaptacji i szybka nauka w dynamicznym środowisku.</li>"
     }
@@ -45,12 +45,12 @@
     "school1": {
       "name": "Szkoła poligraficzna w Kijowie Durk offsetowy",
       "profession": "Durkarz offsetowy",
-      "meta": "09.2007-06.2010 <span class=\"location\">|</span>Ukraina<span class=\"location\">|</span>Kijew"
+      "meta": "09.2007-06.2010 <span class=\"location\">\u00A0</span>Ukraina<span class=\"location\">\u00A0 </span>Kijew"
     },
     "school2": {
       "name": "Szkoła policealna Europejska Szkoła Integracji Społecznej Terra Nova w Opolu",
       "profession": "Technik BHP",
-      "meta": "09.2022 - 02.2024<span class=\"location\">|</span>Polska<span class=\"location\">|</span>Opole"
+      "meta": "09.2022 - 02.2024 <span class=\"location\">\u00A0</span>Polska<span class=\"location\">\u00A0 </span>Opole"
     }
   },
   "sidebar": {

@@ -11,31 +11,31 @@
     "title": "Work Experience",
     "company1": {
       "title": "Printer, practice <span class=\"company-name\">Mint of the National of Ukraine</span>",
-      "meta": "10.2007 - 04.2008 <span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev",
+      "meta": "10.2007 - 04.2008 <span class=\"location\">\u00A0</span>Ukraine<span class=\"location\">\u00A0 </span>Kiev",
       "machines_html": "<li class=\"job-posicion\">KBA Intaglio</li><li class=\"job-posicion\">KBA Super Simultan</li><li class=\"job-posicion\">KBA Nota Screen</li><li class=\"job-posicion\">KBA Numerrota</li>",
       "points_html": "<li class=\"job-posicion\">Assisted in monitoring the production process of printed materials, ensuring quality standards were met.</li><li class=\"job-posicion\">Learned the fundamentals of operating and maintaining printing equipment under expert supervision.</li><li class=\"job-posicion\">Collaborated with experienced professionals to gain insights into printing technology and security features.</li><li class=\"job-posicion\">Practiced time management and attention to detail in a highly regulated production environment.</li><li class=\"job-posicion\">Contributed to the preparation of materials and ensured readiness for production workflows.</li>"
     },
     "company2": {
       "title": "Printer <span class=\"company-name\">Universal Druk</span>",
-      "meta": "04.2008 - 10.2008 <span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev",
+      "meta": "04.2008 - 10.2008 <span class=\"location\">\u00A0</span>Ukraine<span class=\"location\">\u00A0 </span>Kiev",
       "machines_html": "<li class=\"job-posicion\">Heidelberg GTO-52-5</li><li class=\"job-posicion\">Komori Litron B2</li>",
       "points_html": "<li class=\"job-posicion\">Studied retro printing technologies and offset plate making using the copy frame method.</li><li class=\"job-posicion\">Collaborated with team members to optimize processes and meet deadlines</li><li class=\"job-posicion\">Learned to create and mix offset inks, which when combined form Pantone C| U .</li>"
     },
     "company3": {
       "title": "Printer <span class=\"company-name\">Triada-print</span>",
-      "meta": "02.2009 - 11.2009 <span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev",
+      "meta": "02.2009 - 11.2009 <span class=\"location\">\u00A0</span>Ukraine<span class=\"location\">\u00A0 </span>Kiev",
       "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
       "points_html": "<li class=\"job-posicion\">Managed production schedules and ensured high-quality delivery of print materials.</li><li class=\"job-posicion\">Collaborated with team members to optimize processes and meet deadlines</li><li class=\"job-posicion\">Demonstrated adaptability and quick learning in a fast-paced environment.</li>"
     },
     "company4": {
       "title": "Printer <span class=\"company-name\">Hamma-print</span>",
-      "meta": "11.2010 - 07.2015<span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev",
+      "meta": "11.2010 - 07.2015 <span class=\"location\">\u00A0</span>Ukraine<span class=\"location\">\u00A0 </span>Kiev",
       "machines_html": "<li class=\"job-posicion\">Heidelberg SM-74-5+L</li><li class=\"job-posicion\">Heidelberg SM-102-5</li>",
       "points_html": "<li class=\"job-posicion\">Managed production schedules and ensured high-quality delivery of print materials.</li><li class=\"job-posicion\">Collaborated with team members to optimize processes and meet deadlines</li><li class=\"job-posicion\">Demonstrated adaptability and quick learning in a fast-paced environment.</li>"
     },
     "company5": {
       "title": "Printing Specialist <span class=\"company-name\">Opolgraf Printing House</span>",
-      "meta": "12.2021 - Present <span class=\"location\">|</span>Poland<span class=\"location\">|</span>Opole",
+      "meta": "12.2021 - Present <span class=\"location\">\u00A0</span>Poland<span class=\"location\">\u00A0 </span>Opole",
       "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
       "points_html": "<li class=\"job-posicion\">Managed production schedules and ensured high-quality delivery of print materials.</li><li class=\"job-posicion\">Collaborated with team members to optimize processes and meet deadlines</li><li class=\"job-posicion\">Demonstrated adaptability and quick learning in a fast-paced environment.</li>"
     }
@@ -45,12 +45,12 @@
     "school1": {
       "name": "Kiev Printing School Offset Durk",
       "profession": "Focused on JavaScript fundamentals, front-end development, and building small projects to develop coding proficiency.",
-      "meta": "09.2007-06.2010 <span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev"
+      "meta": "09.2007-06.2010 <span class=\"location\">\u00A0</span>Ukraine<span class=\"location\">\u00A0 </span>Kiev"
     },
     "school2": {
       "name": "European School of Social Integration Terra Nova in Opole",
       "profession": "Health and Safety Technician",
-      "meta": "09.2022 - 02.2024<span class=\"location\">|</span>Poland<span class=\"location\">|</span>Opole"
+      "meta": "09.2022 - 02.2024 <span class=\"location\">\u00A0</span>Poland<span class=\"location\">\u00A0 </span>Opole"
     }
   },
   "sidebar": {

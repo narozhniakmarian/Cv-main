@@ -11,31 +11,31 @@
     "title": "Досвід роботи",
     "company1": {
       "title": "Друкар, практикант <span class=\"company-name\">Mint of the National of Ukraine</span>",
-      "meta": "10.2007 - 04.2008 <span class=\"location\"></span>Україна<span class=\"location\"></span>Київ",
+      "meta": "10.2007 - 04.2008 <span class=\"location\">\u00A0</span>Україна<span class=\"location\">\u00A0 </span>Київ",
       "machines_html": "<li class=\"job-posicion\">KBA Intaglio</li><li class=\"job-posicion\">KBA Super Simultan</li><li class=\"job-posicion\">KBA Nota Screen</li><li class=\"job-posicion\">KBA Numerrota</li>",
       "points_html": "<li class=\"job-posicion\">Допомога в моніторингу процесу виробництва друкованих матеріалів, забезпечення дотримання стандартів якості.</li><li class=\"job-posicion\">Вивчав основи експлуатації та обслуговування друкарського обладнання під наглядом фахівців.</li><li class=\"job-posicion\">Співпраця з досвідченими професіоналами, щоб отримати розуміння технології друку та елементи захисту.</li><li class=\"job-posicion\">Сприяв підготовці матеріалів та забезпеченню готовності для виробничих процесів.</li>"
     },
     "company2": {
       "title": "Друкар <span class=\"company-name\">Universal Druk</span>",
-      "meta": "04.2008 - 10.2008 <span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ",
+      "meta": "04.2008 - 10.2008 <span class=\"location\">\u00A0</span>Україна<span class=\"location\">\u00A0 </span>Київ",
       "machines_html": "<li class=\"job-posicion\">Heidelberg GTO-52-5</li><li class=\"job-posicion\">Komori Litron B2</li>",
       "points_html": "<li class=\"job-posicion\">Вивчав технології ретродруку та використання офсетних форм метод копіювання кадрів.</li><li class=\"job-posicion\">Співпраця з іншими членами колектову</li><li class=\"job-posicion\">Навчався створювати та змішувати офсетні фарби, які у поєднанні утворюють Pantone C| U .</li>"
     },
     "company3": {
       "title": "Друкар <span class=\"company-name\">Triada-print</span>",
-      "meta": "02.2009 - 11.2009 <span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ",
+      "meta": "02.2009 - 11.2009 <span class=\"location\">\u00A0</span>Україна<span class=\"location\">\u00A0 </span>Київ",
       "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
       "points_html": "<li class=\"job-posicion\">Керував виробничими процесом та забезпечував високу якість друкованої продукції.</li><li class=\"job-posicion\">Співпраця з іншими членами колектову</li>"
     },
     "company4": {
       "title": "Друкар <span class=\"company-name\">Hamma-print</span>",
-      "meta": "11.2010 - 07.2015<span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ",
+      "meta": "11.2010 - 07.2015 <span class=\"location\">\u00A0</span>Україна<span class=\"location\">\u00A0 </span>Київ",
       "machines_html": "<li class=\"job-posicion\">Heidelberg SM-74-5+L</li><li class=\"job-posicion\">Heidelberg SM-102-5</li>",
       "points_html": "<li class=\"job-posicion\">Керував виробничими процесом та забезпечував високу якість друкованої продукції.</li><li class=\"job-posicion\">Співпраця з іншими членами колектову</li>"
     },
     "company5": {
       "title": "Друкар <span class=\"company-name\">Opolgraf Printing House</span>",
-      "meta": "12.2021 - по сьогодні <span class=\"location\">|</span>Польща<span class=\"location\">|</span>Ополе",
+      "meta": "12.2021 - по сьогодні <span class=\"location\">\u00A0</span>Польща<span class=\"location\">\u00A0 </span>Ополе",
       "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
       "points_html": "<li class=\"job-posicion\">Керував виробничими процесом та забезпечував високу якість друкованої продукції.</li><li class=\"job-posicion\">Співпраця з іншими членами колектову</li>"
     }
@@ -45,12 +45,12 @@
     "school1": {
       "name": "Вище Професійне Поліграфічне Училище",
       "profession": "Друкар офсетного друку",
-      "meta": "09.2007-06.2010 <span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ"
+      "meta": "09.2007-06.2010 <span class=\"location\">\u00A0</span>Україна<span class=\"location\">\u00A0 </span>Київ"
     },
     "school2": {
       "name": "Вемірня школа Європейська школа Соціальнох інтеграції Terra Nova в Ополю",
       "profession": "Технік з охорони праці",
-      "meta": "09.2022 - 02.2024<span class=\"location\">|</span>Польща<span class=\"location\">|</span>Ополе"
+      "meta": "09.2022 - 02.2024 <span class=\"location\">\u00A0</span>Польща<span class=\"location\">\u00A0 </span>Ополе"
     }
   },
   "sidebar": {
