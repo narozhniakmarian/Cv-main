@@ -1,0 +1,68 @@
+{
+  "header": {
+    "profession": "Printer<br />Front-End Developer",
+    "name": "Marian Narozhniak",
+    "bio": "I have extensive experience as an offset printer. I possess technical expertise and skills in operating printing machines, ensuring high-quality output. Responsible, detail-oriented, and capable of working effectively in a team under tight deadlines. I make a significant contribution to the development of the Ukrainian and Polish languages by printing educational materials for schools and works of fiction. I am focused on achieving results and constantly improving my professional skills."
+  },
+  "work": {
+    "title": "Work Experience",
+    "company1": {
+      "title": "Printer, practice <span class=\"company-name\">Mint of the National of Ukraine</span>",
+      "meta": "10.2007 - 04.2008 <span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev",
+      "machines_html": "<li class=\"job-posicion\">KBA Intaglio</li><li class=\"job-posicion\">KBA Super Simultan</li><li class=\"job-posicion\">KBA Nota Screen</li><li class=\"job-posicion\">KBA Numerrota</li>",
+      "points_html": "<li class=\"job-posicion\">Assisted in monitoring the production process of printed materials, ensuring quality standards were met.</li><li class=\"job-posicion\">Learned the fundamentals of operating and maintaining printing equipment under expert supervision.</li><li class=\"job-posicion\">Collaborated with experienced professionals to gain insights into printing technology and security features.</li><li class=\"job-posicion\">Practiced time management and attention to detail in a highly regulated production environment.</li><li class=\"job-posicion\">Contributed to the preparation of materials and ensured readiness for production workflows.</li>"
+    },
+    "company2": {
+      "title": "Printer <span class=\"company-name\">Universal Druk</span>",
+      "meta": "04.2008 - 10.2008 <span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev",
+      "machines_html": "<li class=\"job-posicion\">Heidelberg GTO-52-5</li><li class=\"job-posicion\">Komori Litron B2</li>",
+      "points_html": "<li class=\"job-posicion\">Studied retro printing technologies and offset plate making using the copy frame method.</li><li class=\"job-posicion\">Collaborated with team members to optimize processes and meet deadlines</li><li class=\"job-posicion\">Learned to create and mix offset inks, which when combined form Pantone C| U .</li>"
+    },
+    "company3": {
+      "title": "Printer <span class=\"company-name\">Triada-print</span>",
+      "meta": "02.2009 - 11.2009 <span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev",
+      "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
+      "points_html": "<li class=\"job-posicion\">Managed production schedules and ensured high-quality delivery of print materials.</li><li class=\"job-posicion\">Collaborated with team members to optimize processes and meet deadlines</li><li class=\"job-posicion\">Demonstrated adaptability and quick learning in a fast-paced environment.</li>"
+    },
+    "company4": {
+      "title": "Printer <span class=\"company-name\">Hamma-print</span>",
+      "meta": "11.2010 - 07.2015<span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev",
+      "machines_html": "<li class=\"job-posicion\">Heidelberg SM-74-5+L</li><li class=\"job-posicion\">Heidelberg SM-102-5</li>",
+      "points_html": "<li class=\"job-posicion\">Managed production schedules and ensured high-quality delivery of print materials.</li><li class=\"job-posicion\">Collaborated with team members to optimize processes and meet deadlines</li><li class=\"job-posicion\">Demonstrated adaptability and quick learning in a fast-paced environment.</li>"
+    },
+    "company5": {
+      "title": "Printing Specialist <span class=\"company-name\">Opolgraf Printing House</span>",
+      "meta": "12.2021 - Present <span class=\"location\">|</span>Poland<span class=\"location\">|</span>Opole",
+      "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
+      "points_html": "<li class=\"job-posicion\">Managed production schedules and ensured high-quality delivery of print materials.</li><li class=\"job-posicion\">Collaborated with team members to optimize processes and meet deadlines</li><li class=\"job-posicion\">Demonstrated adaptability and quick learning in a fast-paced environment.</li>"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "school1": {
+      "name": "Kiev Printing School Offset Durk",
+      "profession": "Focused on JavaScript fundamentals, front-end development, and building small projects to develop coding proficiency.",
+      "meta": "09.2007-06.2010 <span class=\"location\">|</span>Ukraine<span class=\"location\">|</span>Kiev"
+    },
+    "school2": {
+      "name": "European School of Social Integration Terra Nova in Opole",
+      "profession": "Health and Safety Technician",
+      "meta": "09.2022 - 02.2024<span class=\"location\">|</span>Poland<span class=\"location\">|</span>Opole"
+    }
+  },
+  "sidebar": {
+    "contacts": {
+      "title": "Contacts",
+      "tel_label": "Tel:",
+      "email_label": "E-mail:"
+    },
+    "tech": {
+      "title": "Tech Skills",
+      "list_html": "<li class=\"skills-list-item\">Knowledge of printing equipment:</li><ul><li class=\"skills-list-dubl\">Setup of offset printing machines.</li><li class=\"skills-list-dubl\">Calibration and maintenance of equipment.</li><li class=\"skills-list-dubl\">Handling consumables (paper, inks, varnishes).</li></ul><li class=\"skills-list-item\">Printing technology:</li><ul><li class=\"skills-list-dubl\">Preparation of printing plates.</li><li class=\"skills-list-dubl\">Color control (CMYK, Pantone).</li><li class=\"skills-list-dubl\">Understanding of layout design processes.</li></ul><li class=\"skills-list-item\">Technical maintenance:</li><ul><li class=\"skills-list-dubl\">Performing preventive maintenance.</li><li class=\"skills-list-dubl\">Repairing minor equipment issues.</li></ul><li class=\"skills-list-item\">Quality control:</li><ul><li class=\"skills-list-dubl\">Detecting and resolving printing defects.</li><li class=\"skills-list-dubl\">Color calibration and ink density adjustment.</li></ul><li class=\"skills-list-item\">Software proficiency:</li><ul><li class=\"skills-list-dubl\">Knowledge of print preparation programs (Adobe Acrobat, Adobe Illustrator, Adobe Photoshop, Microsoft Office).</li></ul><li class=\"skills-list-item\">Adherence to standards:</li><ul><li class=\"skills-list-dubl\">Working according to international standards (e.g., ISO 12647, ISO 9000/9001, ISO 45001).</li></ul><li class=\"skills-list-item\">Process optimization:</li><ul><li class=\"skills-list-dubl\">Managing print runs.</li><li class=\"skills-list-dubl\">Optimizing material consumption (paper, inks).</li></ul>"
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "list_html": "<li class=\"skills-list-item\">Attention to detail:</li><ul><li class=\"skills-list-dubl\">Precision in working with layouts and materials.</li></ul><li class=\"skills-list-item\">Organizational skills:</li><ul><li class=\"skills-list-dubl\">Meeting deadlines consistently.</li></ul><li class=\"skills-list-item\">Communication:</li><ul><li class=\"skills-list-dubl\">Collaborating with designers, operators, and managers.</li></ul><li class=\"skills-list-item\">Problem-solving:</li><ul><li class=\"skills-list-dubl\">Rapid response to technical issues.</li><li class=\"skills-list-dubl\">Efficiently addressing printing defects.</li></ul><li class=\"skills-list-item\">Physical endurance:</li><ul><li class=\"skills-list-dubl\">Capability to work long shifts.</li></ul><li class=\"skills-list-item\">Adaptability:</li><ul><li class=\"skills-list-dubl\">Quick adoption of new technologies and equipment.</li></ul><li class=\"skills-list-item\">Self-organization:</li><ul><li class=\"skills-list-dubl\">Prioritizing tasks effectively.</li></ul><li class=\"skills-list-item\">Stress tolerance:</li><ul><li class=\"skills-list-dubl\">Remaining composed under tight deadlines and emergencies.</li></ul>"
+    }
+  }
+}

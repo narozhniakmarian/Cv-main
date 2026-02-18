@@ -1,0 +1,68 @@
+{
+  "header": {
+    "profession": "Друкар офсетного друку<br />Front-End Developer",
+    "name": "Marian Narozhniak",
+    "bio": "Маю багаторічний досвід роботи друкарем офсетного друку. Володію технічними знаннями та навичками роботи з друкарськими машинами, забезпечую високий рівень якості друку. Відповідальний, уважний до деталей, здатний ефективно працювати в команді та в умовах жорстких термінів. Роблю значний внесок у розвиток української та польської мов, друкуючи навчальну літературу для шкіл та художні видання. Орієнтуюся на досягнення результату та постійне вдосконалення професійних навичок."
+  },
+  "work": {
+    "title": "Досвід роботи",
+    "company1": {
+      "title": "Друкар, практикант <span class=\"company-name\">Mint of the National of Ukraine</span>",
+      "meta": "10.2007 - 04.2008 <span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ",
+      "machines_html": "<li class=\"job-posicion\">KBA Intaglio</li><li class=\"job-posicion\">KBA Super Simultan</li><li class=\"job-posicion\">KBA Nota Screen</li><li class=\"job-posicion\">KBA Numerrota</li>",
+      "points_html": "<li class=\"job-posicion\">Допомога в моніторингу процесу виробництва друкованих матеріалів, забезпечення дотримання стандартів якості.</li><li class=\"job-posicion\">Вивчав основи експлуатації та обслуговування друкарського обладнання під наглядом фахівців.</li><li class=\"job-posicion\">Співпраця з досвідченими професіоналами, щоб отримати розуміння технології друку та елементи захисту.</li><li class=\"job-posicion\">Сприяв підготовці матеріалів та забезпеченню готовності для виробничих процесів.</li>"
+    },
+    "company2": {
+      "title": "Друкар <span class=\"company-name\">Universal Druk</span>",
+      "meta": "04.2008 - 10.2008 <span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ",
+      "machines_html": "<li class=\"job-posicion\">Heidelberg GTO-52-5</li><li class=\"job-posicion\">Komori Litron B2</li>",
+      "points_html": "<li class=\"job-posicion\">Вивчав технології ретродруку та використання офсетних форм метод копіювання кадрів.</li><li class=\"job-posicion\">Співпраця з іншими членами колектову</li><li class=\"job-posicion\">Навчався створювати та змішувати офсетні фарби, які у поєднанні утворюють Pantone C| U .</li>"
+    },
+    "company3": {
+      "title": "Друкар <span class=\"company-name\">Triada-print</span>",
+      "meta": "02.2009 - 11.2009 <span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ",
+      "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
+      "points_html": "<li class=\"job-posicion\">Керував виробничими процесом та забезпечував високу якість друкованої продукції.</li><li class=\"job-posicion\">Співпраця з іншими членами колектову</li>"
+    },
+    "company4": {
+      "title": "Друкар <span class=\"company-name\">Hamma-print</span>",
+      "meta": "11.2010 - 07.2015<span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ",
+      "machines_html": "<li class=\"job-posicion\">Heidelberg SM-74-5+L</li><li class=\"job-posicion\">Heidelberg SM-102-5</li>",
+      "points_html": "<li class=\"job-posicion\">Керував виробничими процесом та забезпечував високу якість друкованої продукції.</li><li class=\"job-posicion\">Співпраця з іншими членами колектову</li>"
+    },
+    "company5": {
+      "title": "Друкар <span class=\"company-name\">Opolgraf Printing House</span>",
+      "meta": "12.2021 - по сьогодні <span class=\"location\">|</span>Польща<span class=\"location\">|</span>Ополе",
+      "machines_html": "<li class=\"job-posicion\">Heidelberg PM-74-4</li><li class=\"job-posicion\">Heidelberg XL-106-5+L</li><li class=\"job-posicion\">Heidelberg CD-74-5+L</li>",
+      "points_html": "<li class=\"job-posicion\">Керував виробничими процесом та забезпечував високу якість друкованої продукції.</li><li class=\"job-posicion\">Співпраця з іншими членами колектову</li>"
+    }
+  },
+  "education": {
+    "title": "Освіта",
+    "school1": {
+      "name": "Вище Професійне Поліграфічне Училище",
+      "profession": "Друкар офсетного друку",
+      "meta": "09.2007-06.2010 <span class=\"location\">|</span>Україна<span class=\"location\">|</span>Київ"
+    },
+    "school2": {
+      "name": "Вемірня школа Європейська школа Соціальнох інтеграції Terra Nova в Ополю",
+      "profession": "Технік з охорони праці",
+      "meta": "09.2022 - 02.2024<span class=\"location\">|</span>Польща<span class=\"location\">|</span>Ополе"
+    }
+  },
+  "sidebar": {
+    "contacts": {
+      "title": "Контакт",
+      "tel_label": "Tel:",
+      "email_label": "E-mail:"
+    },
+    "tech": {
+      "title": "Технічні навички",
+      "list_html": "<li class=\"skills-list-item\">Знання друкарського обладнання:</li><ul><li class=\"skills-list-dubl\">Налаштування офсетних друкарських машин.</li><li class=\"skills-list-dubl\">Обслуговування та калібрування обладнання.</li><li class=\"skills-list-dubl\">Робота з витратними матеріалами (папір, фарби, лаки).</li></ul><li class=\"skills-list-item\">Технологія друку:</li><ul><li class=\"skills-list-dubl\">Підготовка друкарських форм.</li><li class=\"skills-list-dubl\">Контроль кольорів (CMYK, Pantone).</li><li class=\"skills-list-dubl\">Розуміння процесу макетування.</li></ul><li class=\"skills-list-item\">Технічне обслуговування:</li><ul><li class=\"skills-list-dubl\">Виконання профілактичного обслуговування обладнання.</li><li class=\"skills-list-dubl\">Дрібний ремонт друкарських машин.</li></ul><li class=\"skills-list-item\">Контроль якості:</li><ul><li class=\"skills-list-dubl\">Виявлення та усунення друкарського браку.</li><li class=\"skills-list-dubl\">Калібрування кольорів і налаштування щільності фарб.</li></ul><li class=\"skills-list-item\">Робота з програмами:</li><ul><li class=\"skills-list-dubl\">Знання програм для підготовки друку (Adobe Acrobat, Adobe Illustrator, Adobe Photoshop, Microsoft Office).</li></ul><li class=\"skills-list-item\">Дотримання стандартів:</li><ul><li class=\"skills-list-dubl\">Вміння працювати за міжнародними стандартами (наприклад, ISO 12647, ISO 9000/9001, ISO 45001).</li></ul><li class=\"skills-list-item\">Оптимізація процесу:</li><ul><li class=\"skills-list-dubl\">Управління тиражами.</li><li class=\"skills-list-dubl\">Оптимізація витрат паперу та фарби.</li></ul>"
+    },
+    "soft": {
+      "title": "М'які навички",
+      "list_html": "<li class=\"skills-list-item\">Увага до деталей:</li><ul><li class=\"skills-list-dubl\">Точність у роботі з макетами та матеріалами.</li></ul><li class=\"skills-list-item\">Організованість:</li><ul><li class=\"skills-list-dubl\">Дотримання термінів виконання замовлень.</li></ul><li class=\"skills-list-item\">Комунікація:</li><ul><li class=\"skills-list-dubl\">Співпраця з дизайнерами, операторами та менеджерами.</li></ul><li class=\"skills-list-item\">Розв’язання проблем:</li><ul><li class=\"skills-list-dubl\">Швидка реакція на технічні несправності.</li><li class=\"skills-list-dubl\">Ефективне усунення друкарського браку.</li></ul><li class=\"skills-list-item\">Фізична витривалість:</li><ul><li class=\"skills-list-dubl\">Здатність працювати у тривалих змінах. .</li></ul><li class=\"skills-list-item\">Адаптивність:</li><ul><li class=\"skills-list-dubl\">Легке освоєння нових технологій та обладнання.</li></ul><li class=\"skills-list-item\">Самоорганізація:</li><ul><li class=\"skills-list-dubl\">Уміння розставляти пріоритети.</li></ul><li class=\"skills-list-item\">Стресостійкість:</li><ul><li class=\"skills-list-dubl\">Робота в умовах форс-мажорів та жорстких дедлайнів.</li></ul>"
+    }
+  }
+}

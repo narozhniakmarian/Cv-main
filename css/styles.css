@@ -21,7 +21,6 @@ ol {
   margin: 0 auto;
 }
 
-/* my-content */
 .my-content {
   padding-left: 88px;
   padding-top: 80px;
@@ -30,10 +29,24 @@ ol {
   box-sizing: border-box;
 }
 
-/* my-info */
 .my-info {
   margin-bottom: 40px;
 }
+
+
+    .lang-switch {
+        position: fixed;
+        top: 12px;
+        right: 16px;
+        z-index: 1000;
+      }
+      .lang-switch select {
+        font-family: "Montserrat", sans-serif;
+        padding: 6px 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        background: #fff;
+      }
 
 .my-profesion {
   font-weight: 700;
@@ -60,7 +73,6 @@ ol {
   color: #595959;
 }
 
-/* projects */
 
 .my-projects {
   margin-bottom: 40px;
@@ -171,7 +183,6 @@ ol {
   margin-bottom: 40px;
 }
 
-/* edukation */
 
 .edukation-title {
   font-weight: 700;
@@ -206,7 +217,6 @@ ol {
   margin-bottom: 40px;
 }
 
-/* sidebar */
 .sidebar {
   background: #d1e09660;
   padding-top: 40px;
