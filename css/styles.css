@@ -324,3 +324,19 @@ ol {
 .back-btn a:hover {
   text-decoration: underline;
 }
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.back::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 10px solid rgb(83, 21, 21);
+}

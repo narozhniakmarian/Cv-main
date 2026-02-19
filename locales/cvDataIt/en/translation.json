@@ -1,0 +1,77 @@
+{
+  "ui": {
+  "back": " Back to Home"
+},
+"header-it": {
+    "profession": "Printer<br />Front-End Developer",
+    "name": "Marian Narozhniak",
+    "bio": "Junior Full-Stack Developer currently studying at GoIT and actively building practical skills through hands-on projects. Experienced with HTML, CSS, JavaScript, React, and Node.js, and familiar with working with REST API and Git. Passionate about web development, eager to learn, and committed to growing as a developer. Comfortable working in a team and focused on writing clean, functional code for both front-end and back-end tasks."
+  },
+  "work-it": {
+    "title": "Project Experience",
+    "project1": {
+      "title": "Front-End Developer <span class=\"company-name\">Group Project : watchcharm.</span>",
+      "meta": "06.2025 <span class=\"location\">\u00A0</span>GoIT<span class=\"location\">\u00A0 </span>School",
+      "roles_html": "Header development, burger menu, modal window formobile devices. Collaboration with the team, assistance in code preview and bug fixing.",
+      "stack_html": "<li class=\"job-posicion\">HTML</li><li class=\"job-posicion\">CSS</li><li class=\"job-posicion\">Javascript.</li>",
+      "link_html": "<li class=\"job-posicion\"><a href=\"https://github.com/narozhniakmarian/first_team_project-html-css-\">GitHub Repository</a></li><li class=\"job-posicion\"><a href=\"https://narozhniakmarian.github.io/first_team_project-html-css-\">Live Demo</a></li>"
+    },
+    "project2": {
+      "title": "Front-End Developer <span class=\"company-name\">Group Project : Mebleria.</span>",
+      "meta": "08.2025 <span class=\"location\">\u00A0</span>GoIT<span class=\"location\">\u00A0 </span>School",
+      "roles_html": "Development of a modal window \"detailed product description\", connecting to the API and transferring data to local storage. Code preview. Bug fixes.",
+      "stack_html": "<li class=\"job-posicion\">HTML</li><li class=\"job-posicion\">CSS</li><li class=\"job-posicion\">Javascript.</li>",
+      "link_html": "<li class=\"job-posicion\"><a href=\"https://github.com/narozhniakmarian/All-possible_mebleria\">GitHub Repository</a></li><li class=\"job-posicion\"><a href=\"https://narozhniakmarian.github.io/All-possible_mebleria\">Live Demo</a></li>"
+    },
+    "project3": {
+      "title": "Full-Stack Developer <span class=\"company-name\">Group Project : ToolNext.</span>",
+      "meta": "12.2025 <span class=\"location\">\u00A0</span>GoIT<span class=\"location\">\u00A0 </span>School",
+      "roles_beckend_html": "Implemented data models, validation schemas, controllers (create, update, return data), and routes for the reservation system. Added logic for checking available dates and preventing duplicate bookings.",
+      "roles_frontend_html":"Built the reservation and ordering page with a custom form based on reusable components, and a custom calendar supporting date‑range selection, automatic price calculation, and disabled booked dates. Access restricted to authenticated users. Also developed a tool catalog page with search, filters, and pagination.",
+      "stack_b_html": "<li class=\"job-posicion\">Node.js</li><li class=\"job-posicion\">Express.js</li><li class=\"job-posicion\">MongoDB</li><li class=\"job-posicion\">Helmet</li>",
+      "stack_f_html": "<li class=\"job-posicion\">React</li><li class=\"job-posicion\">Next.js</li><li class=\"job-posicion\">Formik</li><li class=\"job-posicion\">Yup</li><li class=\"job-posicion\">Modules CSS</li><li class=\"job-posicion\">Axios</li>",
+      "link_b_html": "<li class=\"job-posicion\"><a href=\"https://github.com/Anastasiia-S-13/All-Possible-Back\">GitHub Repository</a></li>",
+      "link_f_html": "<li class=\"job-posicion\"><a href=\"https://github.com/Anastasiia-S-13/all-possible-front\">GitHub Repository</a></li><li class=\"job-posicion\"><a href=\"https://all-possible-front-theta.vercel.app\">Live Demo</a></li>",
+      "etation": " A slight delay may occur on the first page load (Render cold start)"    
+    },
+    "project4": {
+      "title": "UI/UX and Full‑Stack Developer <span class=\"company-name\">Commercial project: Maliy</span>",
+      "meta": "01.2026 <span class=\"location\">\u00A0</span>Ukraine",
+       "roles_beckend_html": "Developed a complete backend system for a multi‑level product catalog. Implemented color switching and dynamic price updates based on selected product variants. Built a custom CMS panel (admin‑only) for creating and editing products, managing gallery images (add/remove), and handling orders including retrieval and processing.",
+      "roles_frontend_html":"Designed a modern, fully responsive UI (partially AI‑assisted). Implemented a mobile burger menu, animated hero section, stylish auto‑swiper in the “About Us” section, product swipers, and interactive product cards with color selection and automatic price updates. Added a custom interactive footer animation. Implemented serverless functions for order creation and contact requests, with real‑time Telegram notifications for the administrator. Integrated a custom cookie popup, Google Analytics, and cookie consent. Built a custom CMS panel for managing products, gallery, orders, and viewing analytics.",
+      "Deployment_html": "Prepared the application for production deployment, containerized the project using Docker, and configured a CI/CD pipeline for automated building and deployment. Ensured stable operation on the hosting environment, including environment optimization, secure configuration management, and proper handling of environment variables.",
+      "stack_b_html": "<li class=\"job-posicion\">Node.js</li><li class=\"job-posicion\">Express.js</li><li class=\"job-posicion\">MongoDB</li><li class=\"job-posicion\">Helmet</li><li class=\"job-posicion\">Multer</li><li class=\"job-posicion\">Cloudinary</li><li class=\"job-posicion\">bcrypt</li><li class=\"job-posicion\">CORS</li>",
+      "stack_f_html": "<li class=\"job-posicion\">React</li><li class=\"job-posicion\">Vite</li><li class=\"job-posicion\">Formik</li><li class=\"job-posicion\">Yup</li><li class=\"job-posicion\">Tailwind  CSS</li><li class=\"job-posicion\">Axios</li><li class=\"job-posicion\">Framer Motion</li><li class=\"job-posicion\">Radix UI</li><li class=\"job-posicion\">clsx</li><li class=\"job-posicion\">Zod</li><li class=\"job-posicion\">ESLint</li><li class=\"job-posicion\">Sonner</li><li class=\"job-posicion\">lucide-react</li><li class=\"job-posicion\">canva.js</li><li class=\"job-posicion\">zustand</li> ",
+      "link_f_html": "<li class=\"job-posicion\"><a href=\"https://serveless-v-app-latest-20qr.onrender.com/\">Live Demo</a></li>",
+      "etation": "I am providing a link to the development version of the application, as the client is currently in the process of adding content and the final production deployment with the official domain has not yet been completed. The dev version is fully functional and used for demonstration purposes. A slight delay may occur on the first page load (Render cold start)"  
+    },
+    "project5": {
+      "title": "UI/UX and Full‑Stack Developer <span class=\"company-name\">Current pet project</span>",
+      "meta": "02.2026 - Present <span class=\"location\">\u00A0</span>Poland<span class=\"location\">\u00A0 </span>Opole",
+      "machines_html": "I am developing a multi‑stack web application using Astro, React, Vue, Supabase, MongoDB, and SQL. The project is currently in active development, so no public demo is available yet. The goal is to explore different architectures, cross‑framework integrations, and database approaches while practicing more advanced development patterns."
+    }
+  },
+  "education-it": {
+    "title": "Education",
+    "school1": {
+      "name": "School GoIT",
+      "profession": "Fullstack Developer",
+      "meta": "03.2025-12.2026 <span class=\"location\">\u00A0</span>Ukraine"
+    }
+
+  },
+  "sidebar-it": {
+    "contacts": {
+      "title": "Contacts",
+      "tel_label": "Tel:",
+      "email_label": "E-mail:"
+    },
+    "tech": {
+      "title": "Tech Skills"
+    },
+    "soft": {
+      "title": "Soft Skills",     
+      "list_html": "<li class=\"skills-list-item\">Attention to detail:</li><ul><li class=\"skills-list-dubl\">High accuracy in coding, UI implementation, and reviewing pull requests.</li></ul><li class=\"skills-list-item\">Teamwork:</li><ul><li class=\"skills-list-dubl\">Effective collaboration with developers, designers, and project managers.</li></ul><li class=\"skills-list-item\">Creativity:</li><ul><li class=\"skills-list-dubl\">Ability to find elegant solutions and create intuitive user experiences.</li></ul><li class=\"skills-list-item\">Good communication:</li><ul><li class=\"skills-list-dubl\">Clear and constructive communication in discussions, stand-ups, and code reviews.</li></ul>"
+}
+  }
+}

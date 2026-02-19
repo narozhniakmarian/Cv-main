@@ -60,7 +60,7 @@
         supportedLngs: ["en", "uk", "pl"],
         debug: false,
         backend: {
-          loadPath: "./locales/{{lng}}/translation.json",
+          loadPath: "../../locales/cvData/{{lng}}/translation.json",
         },
         detection: detectorOptions,
         interpolation: { escapeValue: false },

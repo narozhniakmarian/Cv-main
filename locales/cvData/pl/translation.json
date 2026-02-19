@@ -1,6 +1,6 @@
 {
   "ui": {
-  "back": "< Strona główna"
+  "back": " Strona główna"
 },
   "header": {
     "profession": "Drukarz offsetowy<br />Front-End Developer",
@@ -51,7 +51,14 @@
       "name": "Szkoła policealna Europejska Szkoła Integracji Społecznej Terra Nova w Opolu",
       "profession": "Technik BHP",
       "meta": "09.2022 - 02.2024 <span class=\"location\">\u00A0</span>Polska<span class=\"location\">\u00A0 </span>Opole"
-    }
+    },
+     "certificates": {
+    "udt_onza": "Kursy UDT z obsługi wózków widłowych (ONZA) ",
+    "profession": "Operator wózków widłowych (UDT)",
+      "meta": "08.2025 <span class=\"location\">\u00A0</span>Polska<span class=\"location\">\u00A0 </span>Opole"
+
+  }
+
   },
   "sidebar": {
     "contacts": {

@@ -4,23 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume</title>
+    <title>Printing Resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
     <link rel="canonical" href="./index.html" />
     <link rel="alternate" hreflang="en" href="./index.html?lang=en" />
     <link rel="alternate" hreflang="uk" href="./index.html?lang=uk" />
     <link rel="alternate" hreflang="pl" href="./index.html?lang=pl" />
   </head>
-  <body>
+  <body data-cv="printing-cv">
     <div class="head-container">
       <div class="back-btn">
-        <a href="./index.html" data-i18n="ui.back"> Back to Home</a>
+        <a href="../../index.html" class="back" data-i18n="ui.back">
+          Back to Home</a
+        >
       </div>
       <div class="lang-switch" aria-label="Language switcher">
         <select id="lang-switch" aria-label="Language">
@@ -257,6 +259,23 @@
               >Opole
             </p>
           </div>
+          <div class="schol">
+            <h4 class="schol-name" data-i18n="education.certificates.udt_onza">
+              UDT-certified forklift operation training (ONZA)
+            </h4>
+            <h6
+              class="name-profession"
+              data-i18n="education.certificates.profession"
+            >
+              Forklift Operator (UDT)
+            </h6>
+            <p class="studi-data" data-i18n="education.certificates.meta">
+              08.2025 <span class="location">&nbsp;</span>Poland<span
+                class="location"
+                >&nbsp;</span
+              >Opole
+            </p>
+          </div>
         </div>
       </div>
 
@@ -264,7 +283,7 @@
         <img
           class="prof-picture"
           width="370"
-          src="./img/photo.jpg"
+          src="../../img/photo.jpg"
           alt="Profile Picture"
         />
 
@@ -424,6 +443,6 @@
     <script src="https://cdn.jsdelivr.net/npm/i18next@23.10.1/dist/umd/i18next.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.6.2/i18nextHttpBackend.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.0.1/i18nextBrowserLanguageDetector.min.js"></script>
-    <script src="js/i18n.js"></script>
+    <script src="../../js/i18n.js"></script>
   </body>
 </html>

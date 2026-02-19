@@ -1,6 +1,6 @@
 {
   "ui": {
-  "back": "< Back to Home"
+  "back": " Back to Home"
 },
 "header": {
     "profession": "Printer<br />Front-End Developer",
@@ -51,7 +51,13 @@
       "name": "European School of Social Integration Terra Nova in Opole",
       "profession": "Health and Safety Technician",
       "meta": "09.2022 - 02.2024 <span class=\"location\">\u00A0</span>Poland<span class=\"location\">\u00A0 </span>Opole"
-    }
+    },
+    "certificates": {
+    "udt_onza": "Completed UDT-certified forklift operation training (ONZA)",
+    "profession": "Forklift Operator (UDT)",
+      "meta": "08.2025 <span class=\"location\">\u00A0</span>Poland<span class=\"location\">\u00A0 </span>Opole"
+  }
+
   },
   "sidebar": {
     "contacts": {

@@ -1,6 +1,6 @@
 {
   "ui": {
-  "back": "< На головну"
+  "back": " На головну"
 },
   "header": {
     "profession": "Друкар офсетного друку<br />Front-End Developer",
@@ -51,7 +51,14 @@
       "name": "Вемірня школа Європейська школа Соціальнох інтеграції Terra Nova в Ополю",
       "profession": "Технік з охорони праці",
       "meta": "09.2022 - 02.2024 <span class=\"location\">\u00A0</span>Польща<span class=\"location\">\u00A0 </span>Ополе"
-    }
+    },
+    "certificates": {
+    "udt_onza": "Курси UDT з керування навантажувачами (ONZA) ",
+    "profession": "Водій навантажувача (UDT)",
+      "meta": "08.2025  <span class=\"location\">\u00A0</span>Польща<span class=\"location\">\u00A0 </span>Ополе"
+    
+  }
+
   },
   "sidebar": {
     "contacts": {
