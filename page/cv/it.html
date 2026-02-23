@@ -18,7 +18,7 @@
     <link rel="alternate" hreflang="pl" href="/page/cv/it.html?lang=pl" />
   </head>
   <body data-cv="it-cv">
-    <div class="head-container">
+    <header class="head-container">
       <div class="back-btn">
         <a href="../../index.html" class="back" data-i18n="ui.back">
           Back to Home</a
@@ -32,11 +32,19 @@
           <option value="pl">PL</option>
         </select>
       </div>
-    </div>
+    </header>
 
-    <div class="wrapper">
-      <div class="my-content">
-        <div class="my-info">
+    <main class="wrapper">
+      <section class="about">
+        <img
+          class="prof-picture"
+          width="370"
+          loading="lazy"
+          decoding="async"
+          src="../../img/photo.jpg"
+          alt="Profile Picture"
+        />
+        <div class="title-container">
           <h2 class="my-profesion" data-i18n="header-it.profession">
             Front-End Developer
           </h2>
@@ -52,16 +60,24 @@
             constantly improving my professional skills.
           </p>
           <div class="actions">
-            <a class="btn btn-primary" href="../resource/CV_Narozhniak_Marian.pdf" download rel="noopener" data-i18n="ui.download_cv">Download CV</a>
+            <a
+              class="btn btn-primary"
+              href="../resource/CV_Narozhniak_Marian.pdf"
+              download
+              rel="noopener"
+              data-i18n="ui.download_cv"
+              >Download CV</a
+            >
           </div>
         </div>
+      </section>
 
-        <div class="work-experience">
-          <h3 class="work-experience-title" data-i18n="work-it.title">
-            Work Experience
-          </h3>
-
-          <div class="company-1">
+      <section class="projext-experience">
+        <h3 class="work-experience-title" data-i18n="work-it.title">
+          Work Experience
+        </h3>
+        <div class="experience">
+          <div class="project company-1">
             <h4 class="job" data-i18n="work-it.project1.title">
               Front-End Developer
               <span class="company-name">Group Project : watchcharm.</span>
@@ -82,26 +98,28 @@
                 fixing.
               </p>
             </div>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project1.stack">
-                Stack:
-              </h5>
-              <li class="job-posicion">HTML</li>
-              <li class="job-posicion">CSS</li>
-              <li class="job-posicion">Javascript</li>
-            </ul>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project1.link">
-                Link:
-              </h5>
+            <div class="stack-table">
+              <ul class="job-list-dub">
+                <h5 class="stack-title" data-i18n="work-it.project1.stack">
+                  Stack:
+                </h5>
+                <li class="job-posicion">HTML</li>
+                <li class="job-posicion">CSS</li>
+                <li class="job-posicion">Javascript</li>
+              </ul>
+            </div>
+            <h5 class="link-title" data-i18n="work-it.project1.link">Link:</h5>
+            <ul class="link-list">
               <li class="job-posicion">
                 <a
+                  class="link-btn"
                   href="https://github.com/narozhniakmarian/first_team_project-html-css-"
                   >GitHub Repository</a
                 >
               </li>
               <li class="job-posicion">
                 <a
+                  class="link-btn"
                   href="https://narozhniakmarian.github.io/first_team_project-html-css-"
                   >Live Demo</a
                 >
@@ -109,7 +127,7 @@
             </ul>
           </div>
 
-          <div class="company-2">
+          <div class="project company-2">
             <h4 class="job" data-i18n="work-it.project2.title">
               Front-End Developer
               <span class="company-name">Group Project : Mebleria.</span>
@@ -130,26 +148,28 @@
                 Code preview. Bug fixes.
               </p>
             </div>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project2.stack">
-                Stack:
-              </h5>
-              <li class="job-posicion">HTML</li>
-              <li class="job-posicion">CSS</li>
-              <li class="job-posicion">Javascript</li>
-            </ul>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project2.link">
-                Link:
-              </h5>
+            <div class="stack-table">
+              <ul class="job-list-dub">
+                <h5 class="stack-title" data-i18n="work-it.project2.stack">
+                  Stack:
+                </h5>
+                <li class="job-posicion">HTML</li>
+                <li class="job-posicion">CSS</li>
+                <li class="job-posicion">Javascript</li>
+              </ul>
+            </div>
+            <h5 class="link-title" data-i18n="work-it.project2.link">Link:</h5>
+            <ul class="link-list">
               <li class="job-posicion">
                 <a
+                  class="link-btn"
                   href="https://github.com/narozhniakmarian/All-possible_mebleria"
                   >GitHub Repository</a
                 >
               </li>
               <li class="job-posicion">
                 <a
+                  class="link-btn"
                   href="https://narozhniakmarian.github.io/All-possible_mebleria"
                   >Live Demo</a
                 >
@@ -157,7 +177,7 @@
             </ul>
           </div>
 
-          <div class="company-3">
+          <div class="project company-3">
             <h4 class="job" data-i18n="work-it.project3.title">
               Full-Stack Developer
               <span class="company-name">Group Project : ToolNext.</span>
@@ -169,9 +189,13 @@
               >School
             </p>
             <div class="role">
-              <h5 class="role-title" data-i18n="work-it.project3.role">
-                Role Back-end:
-              </h5>
+              <div class="role-content">
+                <h5 class="role-title" data-i18n="work-it.project3.role">
+                  Role
+                </h5>
+                <span class="role-name company-name">Back-end:</span>
+              </div>
+
               <p
                 class="proj-role"
                 data-i18n="work-it.project3.roles_beckend_html"
@@ -183,9 +207,10 @@
               </p>
             </div>
             <div class="role">
-              <h5 class="role-title" data-i18n="work-it.project3.role">
-                Role Front-end:
-              </h5>
+              <div class="role-content">
+                <span class="role-name company-name">Front-end:</span>
+              </div>
+
               <p
                 class="proj-role"
                 data-i18n="work-it.project3.roles_frontend_html"
@@ -198,61 +223,63 @@
                 pagination.
               </p>
             </div>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project3.stack_b">
-                Stack Back-end:
-              </h5>
-              <li class="job-posicion">Node.js</li>
-              <li class="job-posicion">Express.js</li>
-              <li class="job-posicion">MongoDB</li>
-              <li class="job-posicion">Helmet</li>
-              <li class="job-posicion">CORS</li>
-              <li class="job-posicion">Joi</li>
-            </ul>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project3.stack_f">
-                Stack Front-end:
-              </h5>
-              <li class="job-posicion">React</li>
-              <li class="job-posicion">Next.js</li>
-              <li class="job-posicion">Formik</li>
-              <li class="job-posicion">Yup</li>
-              <li class="job-posicion">Zustand</li>
-              <li class="job-posicion">Modules CSS</li>
-              <li class="job-posicion">Axios</li>
-            </ul>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project3.link">
-                Link:
-              </h5>
+            <div class="stack-table">
+              <ul class="job-list-dub">
+                <h5 class="stack-title" data-i18n="work-it.project3.stack_b">
+                  Stack Back-end:
+                </h5>
+                <li class="job-posicion">Node.js</li>
+                <li class="job-posicion">Express.js</li>
+                <li class="job-posicion">MongoDB</li>
+                <li class="job-posicion">Helmet</li>
+                <li class="job-posicion">CORS</li>
+                <li class="job-posicion">Joi</li>
+              </ul>
+              <ul class="job-list-dub">
+                <h5 class="stack-title" data-i18n="work-it.project3.stack_f">
+                  Stack Front-end:
+                </h5>
+                <li class="job-posicion">React</li>
+                <li class="job-posicion">Next.js</li>
+                <li class="job-posicion">Formik</li>
+                <li class="job-posicion">Yup</li>
+                <li class="job-posicion">Zustand</li>
+                <li class="job-posicion">Modules CSS</li>
+                <li class="job-posicion">Axios</li>
+              </ul>
+            </div>
 
+            <h5 class="link-title" data-i18n="work-it.project3.link">Link:</h5>
+            <ul class="link-list">
               <li class="job-posicion">
                 <p class="links">Back-end:</p>
-                <a href="https://github.com/Anastasiia-S-13/All-Possible-Back"
+                <a
+                  class="link-btn"
+                  href="https://github.com/Anastasiia-S-13/All-Possible-Back"
                   >GitHub Repository</a
                 >
               </li>
               <li class="job-posicion">
                 <p class="links">Front-end:</p>
-                <a href="https://github.com/Anastasiia-S-13/all-possible-front"
+                <a
+                  class="link-btn"
+                  href="https://github.com/Anastasiia-S-13/all-possible-front"
                   >GitHub Repository</a
                 >
-              </li>
-              <li class="job-posicion">
-                <a href="https://all-possible-front-theta.vercel.app"
+                <a
+                  class="link-btn"
+                  href="https://all-possible-front-theta.vercel.app"
                   >Live Demo</a
                 >
               </li>
-              <li class="job-posicion">
-                <p class="links">
-                  A slight delay may occur on the first page load (Render cold
-                  start)
-                </p>
-              </li>
             </ul>
+            <p class="links">
+              A slight delay may occur on the first page load (Render cold
+              start)
+            </p>
           </div>
 
-          <div class="company-4">
+          <div class="project company-4">
             <h4 class="job" data-i18n="work-it.project4.title">
               UI/UX and Full‑Stack Developer
               <span class="company-name">Commercial project: Maliy</span>
@@ -261,9 +288,12 @@
               01.2026 <span class="location">&nbsp;</span>Ukraine
             </p>
             <div class="role">
-              <h5 class="role-title" data-i18n="work-it.project4.role">
-                Role Back-end:
-              </h5>
+              <div class="role-content">
+                <h5 class="role-title" data-i18n="work-it.project4.role">
+                  Role
+                </h5>
+                <span class="role-name company-name">Back-end:</span>
+              </div>
               <p
                 class="proj-role"
                 data-i18n="work-it.project4.roles_beckend_html"
@@ -277,9 +307,9 @@
               </p>
             </div>
             <div class="role">
-              <h5 class="role-title" data-i18n="work-it.project4.role">
-                Role Front-end:
-              </h5>
+              <div class="role-content">
+                <span class="role-name company-name">Front-end:</span>
+              </div>
               <p
                 class="proj-role"
                 data-i18n="work-it.project4.roles_frontend_html"
@@ -297,9 +327,7 @@
               </p>
             </div>
             <div class="role">
-              <h5 class="role-title" data-i18n="work-it.project4">
-                Deployment :
-              </h5>
+              <h5 class="role-title company-name">Deployment :</h5>
               <p class="proj-role" data-i18n="work-it.project4.Deployment_html">
                 Prepared the application for production deployment,
                 containerized the project using Docker, and configured a CI/CD
@@ -309,119 +337,122 @@
                 handling of environment variables.
               </p>
             </div>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project4.stack_b">
-                Stack Back-end:
-              </h5>
-              <li class="job-posicion">Node.js</li>
-              <li class="job-posicion">Express.js</li>
-              <li class="job-posicion">MongoDB</li>
-              <li class="job-posicion">Helmet</li>
-              <li class="job-posicion">Multer</li>
-              <li class="job-posicion">Cloudinary</li>
-              <li class="job-posicion">bcrypt</li>
-              <li class="job-posicion">CORS</li>
-            </ul>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project4.stack_f">
-                Stack Front-end:
-              </h5>
-              <li class="job-posicion">React</li>
-              <li class="job-posicion">Vite</li>
-              <li class="job-posicion">Formik</li>
-              <li class="job-posicion">Yup</li>
-              <li class="job-posicion">Tailwind CSS</li>
-              <li class="job-posicion">Axios</li>
-              <li class="job-posicion">Framer Motion</li>
-              <li class="job-posicion">Radix UI</li>
-              <li class="job-posicion">clsx</li>
-              <li class="job-posicion">Zod</li>
-              <li class="job-posicion">ESLint</li>
-              <li class="job-posicion">Sonner</li>
-              <li class="job-posicion">lucide-react</li>
-              <li class="job-posicion">canva.js</li>
-              <li class="job-posicion">zustand</li>
-            </ul>
-            <ul class="job-list-dub">
-              <h5 class="stack-title" data-i18n="work-it.project4.link">
-                Link:
-              </h5>
-
+            <div class="stack-table">
+              <ul class="job-list-dub">
+                <h5 class="stack-title" data-i18n="work-it.project4.stack_b">
+                  Stack Back-end:
+                </h5>
+                <li class="job-posicion">Node.js</li>
+                <li class="job-posicion">Express.js</li>
+                <li class="job-posicion">MongoDB</li>
+                <li class="job-posicion">Helmet</li>
+                <li class="job-posicion">Multer</li>
+                <li class="job-posicion">Cloudinary</li>
+                <li class="job-posicion">bcrypt</li>
+                <li class="job-posicion">CORS</li>
+              </ul>
+              <ul class="job-list-dub">
+                <h5 class="stack-title" data-i18n="work-it.project4.stack_f">
+                  Stack Front-end:
+                </h5>
+                <li class="job-posicion">React</li>
+                <li class="job-posicion">Vite</li>
+                <li class="job-posicion">Formik</li>
+                <li class="job-posicion">Yup</li>
+                <li class="job-posicion">Tailwind CSS</li>
+                <li class="job-posicion">Axios</li>
+                <li class="job-posicion">Framer Motion</li>
+                <li class="job-posicion">Radix UI</li>
+                <li class="job-posicion">clsx</li>
+                <li class="job-posicion">Zod</li>
+                <li class="job-posicion">ESLint</li>
+                <li class="job-posicion">Sonner</li>
+                <li class="job-posicion">lucide-react</li>
+                <li class="job-posicion">canva.js</li>
+                <li class="job-posicion">zustand</li>
+              </ul>
+            </div>
+            <h5 class="link-title" data-i18n="work-it.project4.link">Link:</h5>
+            <ul class="link-list">
               <li class="job-posicion">
-                <a href="https://all-possible-front-theta.vercel.app"
+                <a
+                  class="link-btn"
+                  href="https://all-possible-front-theta.vercel.app"
                   >Live Demo</a
                 >
               </li>
-              <li class="job-posicion">
-                <p class="links">
-                  I am providing a link to the development version of the
-                  application, as the client is currently in the process of
-                  adding content and the final production deployment with the
-                  official domain has not yet been completed. The dev version is
-                  fully functional and used for demonstration purposes. A slight
-                  delay may occur on the first page load (Render cold start)
-                </p>
-              </li>
             </ul>
-          </div>
-        </div>
-
-        <div class="company-5">
-          <h4 class="job" data-i18n="work-it.project5.title">
-            UI/UX and Full‑Stack Developer
-            <span class="company-name">Current pet project</span>
-          </h4>
-          <p class="job-data" data-i18n="work-it.project5.meta">
-            02.2026 - Present <span class="location">&nbsp;</span>Poland<span
-              class="location"
-              >&nbsp;</span
-            >Opole
-          </p>
-          <div class="role">
-            <h5 class="role-title" data-i18n="work-it.project1.role">Role:</h5>
-            <p class="proj-role" data-i18n="work-it.project1.stack_html">
-              I am developing a multi‑stack web application using Astro, React,
-              Vue, Supabase, MongoDB, and SQL. The project is currently in
-              active development, so no public demo is available yet. The goal
-              is to explore different architectures, cross‑framework
-              integrations, and database approaches while practicing more
-              advanced development patterns.
+            <p class="links">
+              I am providing a link to the development version of the
+              application, as the client is currently in the process of adding
+              content and the final production deployment with the official
+              domain has not yet been completed. The dev version is fully
+              functional and used for demonstration purposes. A slight delay may
+              occur on the first page load (Render cold start)
             </p>
           </div>
-        </div>
 
-        <div class="edukation-it">
-          <h3 class="edukation-title" data-i18n="education-it.title">
-            Education
-          </h3>
-
-          <div class="scgol">
-            <h4 class="schol-name" data-i18n="education-it.school1.name">
-              School GoIT
+          <div class="project company-5">
+            <h4 class="job" data-i18n="work-it.project5.title">
+              UI/UX and Full‑Stack Developer
+              <span class="company-name">Current pet project</span>
             </h4>
-            <h6
-              class="name-profession"
-              data-i18n="education-it.school1.profession"
-            >
-              Fullstack Developer
-            </h6>
-            <p class="studi-data" data-i18n="education.school1.meta">
-              03.2025-12.2026 <span class="location">&nbsp;</span>Ukraine
+            <p class="job-data" data-i18n="work-it.project5.meta">
+              02.2026 - Present <span class="location">&nbsp;</span>Poland<span
+                class="location"
+                >&nbsp;</span
+              >Opole
             </p>
+            <div class="role">
+              <h5 class="role-title" data-i18n="work-it.project1.role">
+                Role:
+              </h5>
+              <p class="proj-role" data-i18n="work-it.project5.stack_html">
+                I am developing a multi‑stack web application using Astro,
+                React, Vue, Supabase, MongoDB, and SQL. The project is currently
+                in active development, so no public demo is available yet. The
+                goal is to explore different architectures, cross‑framework
+                integrations, and database approaches while practicing more
+                advanced development patterns.
+              </p>
+            </div>
           </div>
+        </div>
+      </section>
+    </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/i18next@23.10.1/dist/umd/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.6.2/i18nextHttpBackend.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.0.1/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="../../js/i18n.js"></script>
+  </body>
+</html>
+
+<div class="my-content">
+  <div class="my-info">
+    <div class="work-experience">
+      <div class="edukation-it">
+        <h3 class="edukation-title" data-i18n="education-it.title">
+          Education
+        </h3>
+
+        <div class="scgol">
+          <h4 class="schol-name" data-i18n="education-it.school1.name">
+            School GoIT
+          </h4>
+          <h6
+            class="name-profession"
+            data-i18n="education-it.school1.profession"
+          >
+            Fullstack Developer
+          </h6>
+          <p class="studi-data" data-i18n="education.school1.meta">
+            03.2025-12.2026 <span class="location">&nbsp;</span>Ukraine
+          </p>
+        </div>
       </div>
 
       <aside class="sidebar-it">
-        <img
-          class="prof-picture"
-          width="370"
-          loading="lazy"
-          decoding="async"
-          src="../../img/photo.jpg"
-          alt="Profile Picture"
-        />
-
         <div class="sidebar-content">
           <div class="contacts-contaner">
             <h3 class="contacts-title" data-i18n="sidebar-it.contacts.title">
@@ -436,7 +467,9 @@
               >
             </p>
             <p class="contacts-item">
-              <span class="conts-typ" data-i18n="sidebar-it.contacts.email_label"
+              <span
+                class="conts-typ"
+                data-i18n="sidebar-it.contacts.email_label"
                 >E-mail:</span
               >
               <a class="contacts-linl" href="mailto:moverbeen@gmail.com"
@@ -449,52 +482,60 @@
             <h3 class="skills-titke" data-i18n="sidebar-it.tech.title">
               Tech Skills
             </h3>
-            <ul class="skills-list" >
+            <ul class="skills-list">
               <li class="skills-list-item">Frontend Development:</li>
-<ul>
-  <li class="skills-list-dubl">HTML5, CSS3, SASS.</li>
-  <li class="skills-list-dubl">Tailwind CSS.</li>
-  <li class="skills-list-dubl">JavaScript, TypeScript.</li>
-  <li class="skills-list-dubl">React, Vue.</li>
-  <li class="skills-list-dubl">Next.js, Nuxt.js.</li>
-  <li class="skills-list-dubl">Astro.</li>
-  <li class="skills-list-dubl">State management: Zustand.</li>
-  <li class="skills-list-dubl">UI libraries: Radix UI, shadcn/ui.</li>
-  <li class="skills-list-dubl">Animations: Framer Motion.</li>
-</ul>
+              <ul>
+                <li class="skills-list-dubl">HTML5, CSS3, SASS.</li>
+                <li class="skills-list-dubl">Tailwind CSS.</li>
+                <li class="skills-list-dubl">JavaScript, TypeScript.</li>
+                <li class="skills-list-dubl">React, Vue.</li>
+                <li class="skills-list-dubl">Next.js, Nuxt.js.</li>
+                <li class="skills-list-dubl">Astro.</li>
+                <li class="skills-list-dubl">State management: Zustand.</li>
+                <li class="skills-list-dubl">
+                  UI libraries: Radix UI, shadcn/ui.
+                </li>
+                <li class="skills-list-dubl">Animations: Framer Motion.</li>
+              </ul>
 
-<li class="skills-list-item">Backend Development:</li>
-<ul>
-  <li class="skills-list-dubl">Node.js, Express.js.</li>
-  <li class="skills-list-dubl">Security middleware: Helmet.</li>
-  <li class="skills-list-dubl">File handling: Multer.</li>
-  <li class="skills-list-dubl">Authentication & hashing: bcrypt.</li>
-  <li class="skills-list-dubl">CORS configuration.</li>
-</ul>
+              <li class="skills-list-item">Backend Development:</li>
+              <ul>
+                <li class="skills-list-dubl">Node.js, Express.js.</li>
+                <li class="skills-list-dubl">Security middleware: Helmet.</li>
+                <li class="skills-list-dubl">File handling: Multer.</li>
+                <li class="skills-list-dubl">
+                  Authentication & hashing: bcrypt.
+                </li>
+                <li class="skills-list-dubl">CORS configuration.</li>
+              </ul>
 
-<li class="skills-list-item">Databases & Cloud:</li>
-<ul>
-  <li class="skills-list-dubl">SQL (PostgreSQL / MySQL).</li>
-  <li class="skills-list-dubl">Supabase.</li>
-  <li class="skills-list-dubl">Firebase (Auth, Firestore, Storage).</li>
-</ul>
+              <li class="skills-list-item">Databases & Cloud:</li>
+              <ul>
+                <li class="skills-list-dubl">SQL (PostgreSQL / MySQL).</li>
+                <li class="skills-list-dubl">Supabase.</li>
+                <li class="skills-list-dubl">
+                  Firebase (Auth, Firestore, Storage).
+                </li>
+              </ul>
 
-<li class="skills-list-item">Build Tools & Tooling:</li>
-<ul>
-  <li class="skills-list-dubl">Vite, Webpack, Parcel.</li>
-  <li class="skills-list-dubl">ESLint, Prettier.</li>
-  <li class="skills-list-dubl">Git (branching, pull requests, code review).</li>
-</ul>
+              <li class="skills-list-item">Build Tools & Tooling:</li>
+              <ul>
+                <li class="skills-list-dubl">Vite, Webpack, Parcel.</li>
+                <li class="skills-list-dubl">ESLint, Prettier.</li>
+                <li class="skills-list-dubl">
+                  Git (branching, pull requests, code review).
+                </li>
+              </ul>
 
-<li class="skills-list-item">Design & Media:</li>
-<ul>
-  <li class="skills-list-dubl">Canva.</li>
-</ul>
+              <li class="skills-list-item">Design & Media:</li>
+              <ul>
+                <li class="skills-list-dubl">Canva.</li>
+              </ul>
 
-<li class="skills-list-item">DevOps & Infrastructure:</li>
-<ul>
-  <li class="skills-list-dubl">Docker (build, run, compose).</li>
-</ul>
+              <li class="skills-list-item">DevOps & Infrastructure:</li>
+              <ul>
+                <li class="skills-list-dubl">Docker (build, run, compose).</li>
+              </ul>
             </ul>
           </div>
           <div class="s-skills">
@@ -502,31 +543,38 @@
               Soft Skills
             </h3>
             <ul class="skills-list" data-i18n="sidebar-it.soft.list_html">
-             <li class="skills-list-item">Attention to detail:</li>
-             <ul>
-              <li class="skills-list-dubl">High accuracy in coding, UI implementation, and reviewing pull requests.</li>
-            </ul>
-            <li class="skills-list-item">Teamwork:</li>
-            <ul>
-              <li class="skills-list-dubl">Effective collaboration with developers, designers, and project managers.</li>
-            </ul>
-            <li class="skills-list-item">Creativity:</li>
-            <ul>
-              <li class="skills-list-dubl">Ability to find elegant solutions and create intuitive user experiences.</li>
-            </ul>
-            <li class="skills-list-item">Good communication:</li>
-            <ul>
-              <li class="skills-list-dubl">Clear and constructive communication in discussions, stand-ups, and code reviews.</li>
-            </ul>
+              <li class="skills-list-item">Attention to detail:</li>
+              <ul>
+                <li class="skills-list-dubl">
+                  High accuracy in coding, UI implementation, and reviewing pull
+                  requests.
+                </li>
+              </ul>
+              <li class="skills-list-item">Teamwork:</li>
+              <ul>
+                <li class="skills-list-dubl">
+                  Effective collaboration with developers, designers, and
+                  project managers.
+                </li>
+              </ul>
+              <li class="skills-list-item">Creativity:</li>
+              <ul>
+                <li class="skills-list-dubl">
+                  Ability to find elegant solutions and create intuitive user
+                  experiences.
+                </li>
+              </ul>
+              <li class="skills-list-item">Good communication:</li>
+              <ul>
+                <li class="skills-list-dubl">
+                  Clear and constructive communication in discussions,
+                  stand-ups, and code reviews.
+                </li>
+              </ul>
             </ul>
           </div>
         </div>
       </aside>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/i18next@23.10.1/dist/umd/i18next.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2.6.2/i18nextHttpBackend.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.0.1/i18nextBrowserLanguageDetector.min.js"></script>
-    <script src="../../js/i18n.js"></script>
-  </body>
-</html>
+  </div>
+</div>
