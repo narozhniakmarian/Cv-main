@@ -12,24 +12,30 @@
     "project1": {
       "title": "Front-End Розробник <span class=\"company-name\">Груповий проєкт: watchcharm.</span>",
       "meta": "06.2025 <span class=\"location\"> </span>GoIT<span class=\"location\"> </span>School",
+      "role": "Роль:",
       "roles_html": "Розробка хедера, бургер-меню, модального вікна для мобільних пристроїв. Співпраця з командою, допомога у перегляді коду та виправленні помилок.",
-      "stack_html": "<li class=\"job-posicion\">HTML</li><li class=\"job-posicion\">CSS</li><li class=\"job-posicion\">Javascript.</li>",
+      "stack":"Stack:",
+      "link":"Посилання:",
       "link_html": "<li class=\"job-posicion\"><a href=\"https://github.com/narozhniakmarian/first_team_project-html-css-\">GitHub Репозиторій</a></li><li class=\"job-posicion\"><a href=\"https://narozhniakmarian.github.io/first_team_project-html-css-\">Live Demo</a></li>"
     },
     "project2": {
       "title": "Front-End Розробник <span class=\"company-name\">Груповий проєкт: Mebleria.</span>",
       "meta": "08.2025 <span class=\"location\"> </span>GoIT<span class=\"location\"> </span>School",
+      "role": "Роль:",
       "roles_html": "Розробка модального вікна «детальний опис продукту», підключення до API та передача даних у localStorage. Перегляд коду. Виправлення помилок.",
-      "stack_html": "<li class=\"job-posicion\">HTML</li><li class=\"job-posicion\">CSS</li><li class=\"job-posicion\">Javascript.</li>",
+      "stack":"Stack:",
+      "link":"Посилання:",
       "link_html": "<li class=\"job-posicion\"><a href=\"https://github.com/narozhniakmarian/All-possible_mebleria\">GitHub Репозиторій</a></li><li class=\"job-posicion\"><a href=\"https://narozhniakmarian.github.io/All-possible_mebleria\">Live Demo</a></li>"
     },
     "project3": {
       "title": "Full-Stack Розробник <span class=\"company-name\">Груповий проєкт: ToolNext.</span>",
       "meta": "12.2025 <span class=\"location\"> </span>GoIT<span class=\"location\"> </span>School",
+      "role": "Роль:",
       "roles_beckend_html": "Реалізував моделі даних, схеми валідації, контролери (створення, оновлення, повернення даних) та маршрути для системи бронювання. Додав логіку перевірки доступних дат і запобігання дублюванню бронювань.",
       "roles_frontend_html": "Створив сторінку бронювання та оформлення замовлення з кастомним формою на базі багаторазових компонентів та кастомним календарем із вибором діапазону дат, автоматичним розрахунком ціни та блокуванням зайнятих дат. Доступ лише для авторизованих користувачів. Також розробив сторінку каталогу інструментів із пошуком, фільтрами та пагінацією.",
-      "stack_b_html": "<li class=\"job-posicion\">Node.js</li><li class=\"job-posicion\">Express.js</li><li class=\"job-posicion\">MongoDB</li><li class=\"job-posicion\">Helmet</li>",
-      "stack_f_html": "<li class=\"job-posicion\">React</li><li class=\"job-posicion\">Next.js</li><li class=\"job-posicion\">Formik</li><li class=\"job-posicion\">Yup</li><li class=\"job-posicion\">Modules CSS</li><li class=\"job-posicion\">Axios</li>",
+     "stack_b":"Stack Back-end:",
+      "stack_f":"Stack Front-end:",
+      "link": "Посилання:",
       "link_b_html": "<li class=\"job-posicion\"><a href=\"https://github.com/Anastasiia-S-13/All-Possible-Back\">GitHub Репозиторій</a></li>",
       "link_f_html": "<li class=\"job-posicion\"><a href=\"https://github.com/Anastasiia-S-13/all-possible-front\">GitHub Репозиторій</a></li><li class=\"job-posicion\"><a href=\"https://all-possible-front-theta.vercel.app\">Live Demo</a></li>",
       "etation": " Можлива невелика затримка під час першого завантаження сторінки (Render cold start)"
@@ -37,18 +43,20 @@
     "project4": {
       "title": "UI/UX та Full‑Stack Розробник <span class=\"company-name\">Комерційний проєкт: Maliy</span>",
       "meta": "01.2026 <span class=\"location\"> </span>Україна",
+      "role": "Роль:",
       "roles_beckend_html": "Розробив повноцінну бекенд‑систему для багаторівневого каталогу товарів. Реалізував перемикання кольорів та динамічне оновлення ціни залежно від вибраних варіантів. Створив кастомну CMS‑панель (лише для адміністратора) для створення та редагування товарів, керування галереєю (додавання/видалення), а також обробки замовлень.",
       "roles_frontend_html": "Створив сучасний, повністю адаптивний UI (частково за допомогою AI). Реалізував мобільне бургер‑меню, анімований hero‑блок, стильний авто‑свайпер у секції «Про нас», продуктові свайпери та інтерактивні картки товарів із вибором кольору та автоматичним оновленням ціни. Додав кастомну анімацію футера. Реалізував serverless‑функції для створення замовлень і контактних запитів із миттєвими Telegram‑сповіщеннями для адміністратора. Інтегрував кастомний cookie‑попап, Google Analytics та cookie consent. Створив кастомну CMS‑панель для керування товарами, галереєю, замовленнями та перегляду аналітики.",
       "Deployment_html": "Підготував застосунок до продакшн‑деплою, контейнеризував проєкт за допомогою Docker та налаштував CI/CD для автоматичної збірки та розгортання. Забезпечив стабільну роботу на хостингу, включно з оптимізацією середовища, безпечним керуванням конфігураціями та коректною обробкою змінних середовища.",
-      "stack_b_html": "<li class=\"job-posicion\">Node.js</li><li class=\"job-posicion\">Express.js</li><li class=\"job-posicion\">MongoDB</li><li class=\"job-posicion\">Helmet</li><li class=\"job-posicion\">Multer</li><li class=\"job-posicion\">Cloudinary</li><li class=\"job-posicion\">bcrypt</li><li class=\"job-posicion\">CORS</li>",
-      "stack_f_html": "<li class=\"job-posicion\">React</li><li class=\"job-posicion\">Vite</li><li class=\"job-posicion\">Formik</li><li class=\"job-posicion\">Yup</li><li class=\"job-posicion\">Tailwind CSS</li><li class=\"job-posicion\">Axios</li><li class=\"job-posicion\">Framer Motion</li><li class=\"job-posicion\">Radix UI</li><li class=\"job-posicion\">clsx</li><li class=\"job-posicion\">Zod</li><li class=\"job-posicion\">ESLint</li><li class=\"job-posicion\">Sonner</li><li class=\"job-posicion\">lucide-react</li><li class=\"job-posicion\">canva.js</li><li class=\"job-posicion\">zustand</li>",
+      "stack_b":"Stack Back-end:",
+     "stack_f":"Stack Front-end:",
+      "link":" Посилання",
       "link_f_html": "<li class=\"job-posicion\"><a href=\"https://serveless-v-app-latest-20qr.onrender.com/\">Live Demo</a></li>",
       "etation": "Надаю посилання на dev‑версію застосунку, оскільки клієнт зараз додає контент, і фінальний продакшн‑деплой з офіційним доменом ще не завершено. Dev‑версія повністю функціональна та використовується для демонстрації. Можлива невелика затримка під час першого завантаження (Render cold start)."
     },
     "project5": {
       "title": "UI/UX та Full‑Stack Розробник <span class=\"company-name\">Поточний pet‑проєкт</span>",
       "meta": "02.2026 - Теперішній час <span class=\"location\"> </span>Польща<span class=\"location\"> </span>Ополе",
-      "machines_html": "Розробляю мульти‑стековий веб‑застосунок з використанням Astro, React, Vue, Supabase, MongoDB та SQL. Проєкт перебуває в активній розробці, тому публічної демо‑версії поки немає. Мета — дослідити різні архітектури, інтеграції між фреймворками та підходи до роботи з базами даних, а також попрактикувати більш просунуті патерни розробки."
+      "stack_html": "Розробляю мульти‑стековий веб‑застосунок з використанням Astro, React, Vue, Supabase, MongoDB та SQL. Проєкт перебуває в активній розробці, тому публічної демо‑версії поки немає. Мета — дослідити різні архітектури, інтеграції між фреймворками та підходи до роботи з базами даних, а також попрактикувати більш просунуті патерни розробки."
     }
   },
   "education-it": {

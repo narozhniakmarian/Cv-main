@@ -12,24 +12,30 @@
     "project1": {
       "title": "Front-End Developer <span class=\"company-name\">Projekt grupowy: watchcharm.</span>",
       "meta": "06.2025 <span class=\"location\"> </span>GoIT<span class=\"location\"> </span>School",
+      "role": "Rola:",
       "roles_html": "Tworzenie nagłówka, menu burger, okna modalnego dla urządzeń mobilnych. Współpraca z zespołem, pomoc w przeglądzie kodu i naprawie błędów.",
-      "stack_html": "<li class=\"job-posicion\">HTML</li><li class=\"job-posicion\">CSS</li><li class=\"job-posicion\">Javascript.</li>",
+      "stack": "Stack:",
+      "link": "Links:",
       "link_html": "<li class=\"job-posicion\"><a href=\"https://github.com/narozhniakmarian/first_team_project-html-css-\">Repozytorium GitHub</a></li><li class=\"job-posicion\"><a href=\"https://narozhniakmarian.github.io/first_team_project-html-css-\">Live Demo</a></li>"
     },
     "project2": {
       "title": "Front-End Developer <span class=\"company-name\">Projekt grupowy: Mebleria.</span>",
       "meta": "08.2025 <span class=\"location\"> </span>GoIT<span class=\"location\"> </span>School",
+      "role": "Rola:",
       "roles_html": "Tworzenie okna modalnego „szczegółowy opis produktu”, podłączenie do API i zapisywanie danych w localStorage. Przegląd kodu. Naprawa błędów.",
-      "stack_html": "<li class=\"job-posicion\">HTML</li><li class=\"job-posicion\">CSS</li><li class=\"job-posicion\">Javascript.</li>",
+      "stack": "Stack:",
+      "link": "Links:",
       "link_html": "<li class=\"job-posicion\"><a href=\"https://github.com/narozhniakmarian/All-possible_mebleria\">Repozytorium GitHub</a></li><li class=\"job-posicion\"><a href=\"https://narozhniakmarian.github.io/All-possible_mebleria\">Live Demo</a></li>"
     },
     "project3": {
       "title": "Full-Stack Developer <span class=\"company-name\">Projekt grupowy: ToolNext.</span>",
       "meta": "12.2025 <span class=\"location\"> </span>GoIT<span class=\"location\"> </span>School",
+      "role": "Rola:",
       "roles_beckend_html": "Zaimplementowałem modele danych, schematy walidacji, kontrolery (tworzenie, aktualizacja, zwracanie danych) oraz trasy dla systemu rezerwacji. Dodałem logikę sprawdzania dostępnych terminów i zapobiegania podwójnym rezerwacjom.",
       "roles_frontend_html": "Stworzyłem stronę rezerwacji i zamówień z niestandardowym formularzem opartym na komponentach wielokrotnego użytku oraz niestandardowym kalendarzem z wyborem zakresu dat, automatycznym obliczaniem ceny i blokowaniem zajętych terminów. Dostęp tylko dla zalogowanych użytkowników. Opracowałem również stronę katalogu narzędzi z wyszukiwaniem, filtrami i paginacją.",
-      "stack_b_html": "<li class=\"job-posicion\">Node.js</li><li class=\"job-posicion\">Express.js</li><li class=\"job-posicion\">MongoDB</li><li class=\"job-posicion\">Helmet</li>",
-      "stack_f_html": "<li class=\"job-posicion\">React</li><li class=\"job-posicion\">Next.js</li><li class=\"job-posicion\">Formik</li><li class=\"job-posicion\">Yup</li><li class=\"job-posicion\">Modules CSS</li><li class=\"job-posicion\">Axios</li>",
+      "stack_b": "Stack Back-end:",
+      "stack_f": "Stack Front-end:",
+      "link": "Links:",
       "link_b_html": "<li class=\"job-posicion\"><a href=\"https://github.com/Anastasiia-S-13/All-Possible-Back\">Repozytorium GitHub</a></li>",
       "link_f_html": "<li class=\"job-posicion\"><a href=\"https://github.com/Anastasiia-S-13/all-possible-front\">Repozytorium GitHub</a></li><li class=\"job-posicion\"><a href=\"https://all-possible-front-theta.vercel.app\">Live Demo</a></li>",
       "etation": " Może wystąpić niewielkie opóźnienie podczas pierwszego ładowania strony (Render cold start)"
@@ -37,18 +43,21 @@
     "project4": {
       "title": "UI/UX i Full‑Stack Developer <span class=\"company-name\">Projekt komercyjny: Maliy</span>",
       "meta": "01.2026 <span class=\"location\"> </span>Ukraina",
+      "role": "Rola:",
       "roles_beckend_html": "Stworzyłem kompletny backend dla wielopoziomowego katalogu produktów. Zaimplementowałem zmianę kolorów i dynamiczną aktualizację ceny w zależności od wybranych wariantów. Zbudowałem niestandardowy panel CMS (tylko dla administratora) do tworzenia i edycji produktów, zarządzania galerią (dodawanie/usuwanie) oraz obsługi zamówień.",
       "roles_frontend_html": "Zaprojektowałem nowoczesny, w pełni responsywny interfejs (częściowo wspierany przez AI). Zaimplementowałem mobilne menu burger, animowaną sekcję hero, stylowy auto‑swiper w sekcji „O nas”, slidery produktów oraz interaktywne karty z wyborem koloru i automatyczną aktualizacją ceny. Dodałem niestandardową animację stopki. Zaimplementowałem funkcje serverless do tworzenia zamówień i zapytań kontaktowych z natychmiastowymi powiadomieniami Telegram dla administratora. Zintegrowałem niestandardowy popup cookies, Google Analytics i zgodę cookies. Stworzyłem niestandardowy panel CMS do zarządzania produktami, galerią, zamówieniami i analizami.",
       "Deployment_html": "Przygotowałem aplikację do wdrożenia produkcyjnego, skonteneryzowałem projekt za pomocą Docker i skonfigurowałem pipeline CI/CD do automatycznego budowania i wdrażania. Zapewniłem stabilne działanie na hostingu, w tym optymalizację środowiska, bezpieczne zarządzanie konfiguracją i prawidłową obsługę zmiennych środowiskowych.",
-      "stack_b_html": "<li class=\"job-posicion\">Node.js</li><li class=\"job-posicion\">Express.js</li><li class=\"job-posicion\">MongoDB</li><li class=\"job-posicion\">Helmet</li><li class=\"job-posicion\">Multer</li><li class=\"job-posicion\">Cloudinary</li><li class=\"job-posicion\">bcrypt</li><li class=\"job-posicion\">CORS</li>",
-      "stack_f_html": "<li class=\"job-posicion\">React</li><li class=\"job-posicion\">Vite</li><li class=\"job-posicion\">Formik</li><li class=\"job-posicion\">Yup</li><li class=\"job-posicion\">Tailwind CSS</li><li class=\"job-posicion\">Axios</li><li class=\"job-posicion\">Framer Motion</li><li class=\"job-posicion\">Radix UI</li><li class=\"job-posicion\">clsx</li><li class=\"job-posicion\">Zod</li><li class=\"job-posicion\">ESLint</li><li class=\"job-posicion\">Sonner</li><li class=\"job-posicion\">lucide-react</li><li class=\"job-posicion\">canva.js</li><li class=\"job-posicion\">zustand</li>",
+      "stack_b": "Stack Back-end:",
+      "stack_f": "Stack Front-end:",
+      "link": "Links:",
       "link_f_html": "<li class=\"job-posicion\"><a href=\"https://serveless-v-app-latest-20qr.onrender.com/\">Live Demo</a></li>",
       "etation": "Udostępniam link do wersji deweloperskiej aplikacji, ponieważ klient jest w trakcie dodawania treści, a finalne wdrożenie produkcyjne z oficjalną domeną nie zostało jeszcze zakończone. Wersja dev jest w pełni funkcjonalna i służy do prezentacji. Może wystąpić niewielkie opóźnienie podczas pierwszego ładowania (Render cold start)."
     },
     "project5": {
       "title": "UI/UX i Full‑Stack Developer <span class=\"company-name\">Aktualny projekt prywatny</span>",
       "meta": "02.2026 - Obecnie <span class=\"location\"> </span>Polska<span class=\"location\"> </span>Opole",
-      "machines_html": "Tworzę wielostackową aplikację internetową z użyciem Astro, React, Vue, Supabase, MongoDB i SQL. Projekt jest w fazie aktywnego rozwoju, dlatego publiczna wersja demo nie jest jeszcze dostępna. Celem jest eksploracja różnych architektur, integracji między frameworkami oraz podejść do baz danych, a także praktyka bardziej zaawansowanych wzorców programistycznych."
+
+      "stack_html": "Tworzę wielostackową aplikację internetową z użyciem Astro, React, Vue, Supabase, MongoDB i SQL. Projekt jest w fazie aktywnego rozwoju, dlatego publiczna wersja demo nie jest jeszcze dostępna. Celem jest eksploracja różnych architektur, integracji między frameworkami oraz podejść do baz danych, a także praktyka bardziej zaawansowanych wzorców programistycznych."
     }
   },
   "education-it": {
