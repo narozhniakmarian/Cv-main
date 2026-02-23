@@ -1,0 +1,71 @@
+{
+  "ui": {
+    "back": "Back to Home"
+  },
+  "header-it": {
+    "profession": "Front-End Developer",
+    "name": "Marian Narozhniak",
+    "bio": "Front-end developer focused on building reliable, accessible and performant interfaces. Experience with React, Next.js, TypeScript and modern tooling. Strong collaboration, code quality and problem‑solving skills."
+  },
+  "work-it": {
+    "title": "Selected IT Projects",
+    "project1": {
+      "title": "Front-End Developer <span class=\"company-name\">Group Project: HellEn</span>",
+      "meta": "05.2025 <span class=\"location\">&nbsp;</span>GoIT<span class=\"location\">&nbsp;</span>School",
+      "role": "Role:",
+      "roles_html": "Header development, burger menu, modal window for mobile devices. Collaboration with the team, assistance in code review and bug fixing.",
+      "stack": "Stack:",
+      "link": "Link:"
+    },
+    "project2": {
+      "title": "Front-End Developer <span class=\"company-name\">Group Project: Mebleria</span>",
+      "meta": "08.2025 <span class=\"location\">&nbsp;</span>GoIT<span class=\"location\">&nbsp;</span>School",
+      "role": "Role:",
+      "roles_html": "Development of a modal window \"detailed product description\", connecting to the API and transferring data to local storage. Code review. Bug fixes.",
+      "stack": "Stack:",
+      "link": "Link:"
+    },
+    "project3": {
+      "title": "Full-Stack Developer <span class=\"company-name\">Group Project: ToolNext</span>",
+      "meta": "12.2025 <span class=\"location\">&nbsp;</span>GoIT<span class=\"location\">&nbsp;</span>School",
+      "role": "Role:",
+      "roles_beckend_html": "Implemented data models, validation schemas, controllers (create, update, return data), and routes for the reservation system. Added logic for checking available dates and preventing duplicate bookings.",
+      "roles_frontend_html": "Built the reservation and ordering page with a custom form based on reusable components, and a custom calendar supporting date‑range selection, automatic price calculation, and disabled booked dates. Access restricted to authenticated users. Also developed a tool catalog page with search, filters, and pagination.",
+      "stack_b": "Stack Back-end:",
+      "stack_f": "Stack Front-end:",
+      "link": "Link:"
+    },
+    "project4": {
+      "title": "UI/UX and Full‑Stack Developer <span class=\"company-name\">Commercial project: Maliy</span>",
+      "meta": "01.2026 <span class=\"location\">&nbsp;</span>Ukraine",
+      "role": "Role:",
+      "roles_beckend_html": "Developed a complete backend system for a multi‑level product catalog. Implemented color switching and dynamic price updates based on selected product variants. Built a custom CMS panel (admin‑only) for creating and editing products, managing gallery images (add/remove), and handling orders including retrieval and processing.",
+      "roles_frontend_html": "Developed the product catalog UI with dynamic variant switching, integrated animations, and responsive layouts. Implemented admin-only interfaces for product management.",
+      "stack_b": "Stack Back-end:",
+      "stack_f": "Stack Front-end:",
+      "link": "Link:"
+    },
+    "project5": {
+      "title": "UI/UX and Full‑Stack Developer <span class=\"company-name\">Current pet project</span>",
+      "meta": "02.2026 - Present <span class=\"location\">&nbsp;</span>Poland<span class=\"location\">&nbsp;</span>Opole",
+      "role": "Role:",
+      "roles_html": "In progress: building a modern web application with a component-driven architecture and cloud integration.",
+      "stack": "Stack:",
+      "link": "Link:"
+    }
+  },
+  "sidebar-it": {
+    "contacts": {
+      "title": "Contacts",
+      "tel_label": "Tel:",
+      "email_label": "E-mail:"
+    },
+    "tech": {
+      "title": "Tech Skills"
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "list_html": "<li class=\"skills-list-item\">Attention to detail:</li><ul><li class=\"skills-list-dubl\">High accuracy in coding, UI implementation, and reviewing pull requests.</li></ul><li class=\"skills-list-item\">Teamwork:</li><ul><li class=\"skills-list-dubl\">Effective collaboration with developers, designers, and project managers.</li></ul><li class=\"skills-list-item\">Creativity:</li><ul><li class=\"skills-list-dubl\">Ability to find elegant solutions and create intuitive user experiences.</li></ul><li class=\"skills-list-item\">Good communication:</li><ul><li class=\"skills-list-dubl\">Clear and constructive communication in discussions, stand-ups, and code reviews.</li></ul>"
+    }
+  }
+}

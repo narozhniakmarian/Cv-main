@@ -1,9 +1,10 @@
 {
   "ui": {
-    "back": " Powrót do strony głównej"
+    "back": " Powrót do strony głównej",
+    "download_cv": "Pobierz CV"
   },
   "header-it": {
-    "profession": "Drukarz<br />Front-End Developer",
+    "profession": "Front-End Developer",
     "name": "Marian Narozhniak",
     "bio": "Junior Full-Stack Developer uczący się w GoIT i aktywnie rozwijający umiejętności poprzez praktyczne projekty. Pracuję z HTML, CSS, JavaScript, React i Node.js, mam doświadczenie z REST API i Git. Pasjonuję się tworzeniem stron internetowych, szybko się uczę i konsekwentnie rozwijam jako programista. Dobrze odnajduję się w pracy zespołowej i skupiam się na pisaniu czystego, funkcjonalnego kodu zarówno po stronie frontendu, jak i backendu."
   },

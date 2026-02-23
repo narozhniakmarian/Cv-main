@@ -15,7 +15,7 @@
   }
 
   function updateHreflangLinks() {
-    const base = "./index.html";
+    const base = window.location.pathname || "./index.html";
     const langs = ["en", "uk", "pl"];
     langs.forEach((lng) => {
       const el = document.querySelector(`link[rel="alternate"][hreflang="${lng}"]`);
@@ -51,6 +51,19 @@
     caches: ["localStorage"],
   };
 
+  const pathName = (window.location && window.location.pathname) || "/";
+  const isItCv = /\/page\/cv\/it\.html$/.test(pathName);
+  const isCvPrinting = /\/page\/cv\/printing\.html$/.test(pathName);
+  const isGalleryPrinting = /\/page\/gallery\/printing_portfolio\.html$/.test(pathName);
+  const defaultNS = "translation";
+  const backendLoadPath = isGalleryPrinting
+    ? "/locales/galleryData/{{lng}}/printing.json"
+    : isItCv
+      ? "/locales/cvDataIt/{{lng}}/translation.json"
+      : isCvPrinting
+        ? "/locales/cvData/{{lng}}/translation.json"
+        : "/locales/{{lng}}/translation.json";
+
   i18next
     .use(i18nextHttpBackend)
     .use(i18nextBrowserLanguageDetector)
@@ -59,8 +72,11 @@
         fallbackLng: "en",
         supportedLngs: ["en", "uk", "pl"],
         debug: false,
+        ns: [defaultNS],
+        defaultNS: defaultNS,
+        fallbackNS: "translation",
         backend: {
-          loadPath: "../../locales/cvData/{{lng}}/translation.json",
+          loadPath: backendLoadPath
         },
         detection: detectorOptions,
         interpolation: { escapeValue: false },

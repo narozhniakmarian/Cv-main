@@ -1,0 +1,71 @@
+{
+  "ui": {
+    "back": "На головну"
+  },
+  "header-it": {
+    "profession": "Front‑End Developer",
+    "name": "Marian Narozhniak",
+    "bio": "Front‑end розробник, орієнтований на надійні, доступні та швидкі інтерфейси. Досвід з React, Next.js, TypeScript та сучасним інструментарієм. Сильні навички співпраці, якості коду та розв'язання проблем."
+  },
+  "work-it": {
+    "title": "Вибрані IT‑проєкти",
+    "project1": {
+      "title": "Front-End Developer <span class=\"company-name\">Груповий проєкт: HellEn</span>",
+      "meta": "05.2025 <span class=\"location\">&nbsp;</span>GoIT<span class=\"location\">&nbsp;</span>School",
+      "role": "Роль:",
+      "roles_html": "Розробка хедера, бургер‑меню, модального вікна для мобільних пристроїв. Співпраця в команді, допомога з code review та виправленням помилок.",
+      "stack": "Стек:",
+      "link": "Посилання:"
+    },
+    "project2": {
+      "title": "Front-End Developer <span class=\"company-name\">Груповий проєкт: Mebleria</span>",
+      "meta": "08.2025 <span class=\"location\">&nbsp;</span>GoIT<span class=\"location\">&nbsp;</span>School",
+      "role": "Роль:",
+      "roles_html": "Розробка модального вікна «детальний опис товару», підключення до API та передача даних у localStorage. Code review. Виправлення багів.",
+      "stack": "Стек:",
+      "link": "Посилання:"
+    },
+    "project3": {
+      "title": "Full‑Stack Developer <span class=\"company-name\">Груповий проєкт: ToolNext</span>",
+      "meta": "12.2025 <span class=\"location\">&nbsp;</span>GoIT<span class=\"location\">&nbsp;</span>School",
+      "role": "Роль:",
+      "roles_beckend_html": "Реалізував моделі даних, схеми валідації, контролери (створення, оновлення, повернення даних) і роутинг для системи бронювання. Додав перевірку доступних дат і запобігання дублюванню бронювань.",
+      "roles_frontend_html": "Створив сторінку бронювання й оформлення замовлення з кастомним формою на базі реюзабельних компонентів і календарем з вибором діапазону, автопідрахунком ціни та вимкненими зайнятими датами. Доступ лише для автентифікованих користувачів. Також розробив каталог інструментів із пошуком, фільтрами та пагінацією.",
+      "stack_b": "Стек Back‑end:",
+      "stack_f": "Стек Front‑end:",
+      "link": "Посилання:"
+    },
+    "project4": {
+      "title": "UI/UX та Full‑Stack Developer <span class=\"company-name\">Комерційний проєкт: Maliy</span>",
+      "meta": "01.2026 <span class=\"location\">&nbsp;</span>Україна",
+      "role": "Роль:",
+      "roles_beckend_html": "Розробив повний бекенд для багаторівневого каталогу товарів. Реалізував перемикання кольорів і динамічне оновлення ціни залежно від варіантів. Створив адміні‑панель для керування товарами, галереями та замовленнями.",
+      "roles_frontend_html": "Розробив інтерфейс каталогу з динамічним перемиканням варіантів, анімаціями та адаптивною версткою. Реалізував адмін‑інтерфейси для керування товарами.",
+      "stack_b": "Стек Back‑end:",
+      "stack_f": "Стек Front‑end:",
+      "link": "Посилання:"
+    },
+    "project5": {
+      "title": "UI/UX та Full‑Stack Developer <span class=\"company-name\">Поточний pet‑проєкт</span>",
+      "meta": "02.2026 - понині <span class=\"location\">&nbsp;</span>Польща<span class=\"location\">&nbsp;</span>Ополе",
+      "role": "Роль:",
+      "roles_html": "У процесі: створення сучасного веб‑додатку з компонентною архітектурою та хмарною інтеграцією.",
+      "stack": "Стек:",
+      "link": "Посилання:"
+    }
+  },
+  "sidebar-it": {
+    "contacts": {
+      "title": "Контакти",
+      "tel_label": "Tel:",
+      "email_label": "E‑mail:"
+    },
+    "tech": {
+      "title": "Технічні навички"
+    },
+    "soft": {
+      "title": "М'які навички",
+      "list_html": "<li class=\"skills-list-item\">Увага до деталей:</li><ul><li class=\"skills-list-dubl\">Висока точність у коді, реалізації UI та рев'ю пул‑реквестів.</li></ul><li class=\"skills-list-item\">Командна робота:</li><ul><li class=\"skills-list-dubl\">Ефективна взаємодія з розробниками, дизайнерами та менеджерами.</li></ul><li class=\"skills-list-item\">Креативність:</li><ul><li class=\"skills-list-dubl\">Пошук елегантних рішень та створення зручних інтерфейсів.</li></ul><li class=\"skills-list-item\">Комунікація:</li><ul><li class=\"skills-list-dubl\">Чітка та конструктивна взаємодія на обговореннях, стендапах і рев'ю.</li></ul>"
+    }
+  }
+}

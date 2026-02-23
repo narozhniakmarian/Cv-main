@@ -1,7 +1,8 @@
 {
   "ui": {
-  "back": " Back to Home"
-},
+    "back": " Back to Home",
+    "download_cv": "Download CV"
+  },
 "header-it": {
     "profession": "Front-End Developer",
     "name": "Marian Narozhniak",

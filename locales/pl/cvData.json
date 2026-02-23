@@ -1,0 +1,71 @@
+{
+  "ui": {
+    "back": "Wróć do strony głównej"
+  },
+  "header-it": {
+    "profession": "Front‑End Developer",
+    "name": "Marian Narozhniak",
+    "bio": "Front‑end developer skupiający się na niezawodnych, dostępnych i wydajnych interfejsach. Doświadczenie z React, Next.js, TypeScript i nowoczesnymi narzędziami. Silne umiejętności współpracy, jakości kodu i rozwiązywania problemów."
+  },
+  "work-it": {
+    "title": "Wybrane projekty IT",
+    "project1": {
+      "title": "Front-End Developer <span class=\"company-name\">Projekt zespołowy: HellEn</span>",
+      "meta": "05.2025 <span class=\"location\">&nbsp;</span>GoIT<span class=\"location\">&nbsp;</span>School",
+      "role": "Rola:",
+      "roles_html": "Tworzenie nagłówka, menu burger i okna modalnego dla urządzeń mobilnych. Współpraca w zespole, code review i poprawa błędów.",
+      "stack": "Stos:",
+      "link": "Link:"
+    },
+    "project2": {
+      "title": "Front-End Developer <span class=\"company-name\">Projekt zespołowy: Mebleria</span>",
+      "meta": "08.2025 <span class=\"location\">&nbsp;</span>GoIT<span class=\"location\">&nbsp;</span>School",
+      "role": "Rola:",
+      "roles_html": "Opracowanie okna modalnego „szczegółowy opis produktu”, podłączenie do API i zapis danych w localStorage. Code review. Naprawa błędów.",
+      "stack": "Stos:",
+      "link": "Link:"
+    },
+    "project3": {
+      "title": "Full‑Stack Developer <span class=\"company-name\">Projekt zespołowy: ToolNext</span>",
+      "meta": "12.2025 <span class=\"location\">&nbsp;</span>GoIT<span class=\"location\">&nbsp;</span>School",
+      "role": "Rola:",
+      "roles_beckend_html": "Zaimplementowano modele danych, schematy walidacji, kontrolery (twórz, aktualizuj, zwracaj dane) i trasy dla systemu rezerwacji. Dodano logikę sprawdzania dostępnych terminów i zapobiegania duplikatom.",
+      "roles_frontend_html": "Zbudowano stronę rezerwacji i zamówień z niestandardowym formularzem i kalendarzem (wybór zakresu dat, automatyczne obliczanie ceny, wyłączone zajęte terminy). Dostęp tylko dla uwierzytelnionych użytkowników. Stworzono katalog narzędzi z wyszukiwaniem, filtrami i paginacją.",
+      "stack_b": "Stos Back‑end:",
+      "stack_f": "Stos Front‑end:",
+      "link": "Link:"
+    },
+    "project4": {
+      "title": "UI/UX i Full‑Stack Developer <span class=\"company-name\">Projekt komercyjny: Maliy</span>",
+      "meta": "01.2026 <span class=\"location\">&nbsp;</span>Ukraina",
+      "role": "Rola:",
+      "roles_beckend_html": "Opracowano kompletny backend dla wielopoziomowego katalogu produktów. Wdrożono przełączanie kolorów i dynamiczną aktualizację cen w zależności od wariantu. Stworzono panel CMS (tylko admin) do zarządzania produktami, galeriami i zamówieniami.",
+      "roles_frontend_html": "Opracowano interfejs katalogu z dynamicznym przełączaniem wariantów, animacjami i responsywnym layoutem. Wdrożono interfejsy admina do zarządzania produktami.",
+      "stack_b": "Stos Back‑end:",
+      "stack_f": "Stos Front‑end:",
+      "link": "Link:"
+    },
+    "project5": {
+      "title": "UI/UX i Full‑Stack Developer <span class=\"company-name\">Bieżący projekt</span>",
+      "meta": "02.2026 - obecnie <span class=\"location\">&nbsp;</span>Polska<span class=\"location\">&nbsp;</span>Opole",
+      "role": "Rola:",
+      "roles_html": "W toku: tworzenie nowoczesnej aplikacji webowej z architekturą komponentową i integracją z chmurą.",
+      "stack": "Stos:",
+      "link": "Link:"
+    }
+  },
+  "sidebar-it": {
+    "contacts": {
+      "title": "Kontakt",
+      "tel_label": "Tel:",
+      "email_label": "E‑mail:"
+    },
+    "tech": {
+      "title": "Umiejętności techniczne"
+    },
+    "soft": {
+      "title": "Umiejętności miękkie",
+      "list_html": "<li class=\"skills-list-item\">Dbałość o szczegóły:</li><ul><li class=\"skills-list-dubl\">Wysoka dokładność w kodowaniu, implementacji UI i code review.</li></ul><li class=\"skills-list-item\">Praca zespołowa:</li><ul><li class=\"skills-list-dubl\">Efektywna współpraca z programistami, projektantami i menedżerami.</li></ul><li class=\"skills-list-item\">Kreatywność:</li><ul><li class=\"skills-list-dubl\">Zdolność tworzenia eleganckich rozwiązań i intuicyjnych interfejsów.</li></ul><li class=\"skills-list-item\">Komunikacja:</li><ul><li class=\"skills-list-dubl\">Jasna i konstruktywna komunikacja podczas dyskusji, stand‑upów i code review.</li></ul>"
+    }
+  }
+}

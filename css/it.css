@@ -1,0 +1,41 @@
+/* IT page dedicated styles */
+:root{
+  --bg:#0b1220;--surface:#0f172a;--card:#111827;--text:#e5e7eb;--text-muted:#9ca3af;
+  --accent:#22d3a6;--accent-contrast:#06271f;--border:rgba(255,255,255,.08);
+  --shadow:0 10px 24px rgba(0,0,0,.35);--radius:14px;--radius-sm:10px
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:"Montserrat",sans-serif;line-height:1.6;padding:32px 20px}
+.head-container{display:flex;justify-content:space-between;align-items:center;gap:16px;max-width:1200px;margin:0 auto 16px;padding:8px 12px;background:linear-gradient(180deg,rgba(34,211,166,.06),rgba(34,211,166,0));border-radius:var(--radius-sm)}
+.wrapper{background:var(--surface);display:flex;flex-direction:row-reverse;width:100%;max-width:1200px;margin:0 auto;box-shadow:var(--shadow);border:1px solid var(--border);border-radius:var(--radius)}
+.my-content{padding:56px 40px 64px 72px}
+.my-info{margin-bottom:40px;padding:28px;background:radial-gradient(1200px 400px at 20% -10%,rgba(34,211,166,.18),transparent 60%),linear-gradient(180deg,rgba(255,255,255,.02),transparent);border:1px solid var(--border);border-radius:var(--radius)}
+.lang-switch select{padding:6px 10px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text)}
+.my-profesion{font-weight:700;font-size:14px;line-height:121%;color:var(--accent);margin:0 0 8px}
+.my-name{font-weight:700;font-size:45px;line-height:122%;color:var(--text);margin:0 0 12px}
+.my-bio{font-size:15px;line-height:1.8;color:var(--text-muted)}
+.actions{display:flex;gap:12px;margin-top:16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 16px;border-radius:10px;border:1px solid var(--border);text-decoration:none;font-weight:600;color:var(--text);background:var(--card);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.btn:hover{transform:translateY(-1px);border-color:var(--accent);box-shadow:0 6px 16px rgba(34,211,166,.18)}
+.btn-primary{background:var(--accent);color:#071b15;border-color:transparent}
+.btn-primary:hover{color:var(--accent-contrast);box-shadow:0 8px 20px rgba(34,211,166,.3)}
+.projects,.work-experience-title,.edukation-title,.skills-titke{color:var(--text)}
+.company-name{color:var(--accent)}
+.job{color:var(--text)}
+.job-data{color:var(--text-muted)}
+.location{color:var(--text)}
+.job-posicion{color:var(--text-muted)}
+.sidebar{background:var(--card);padding:40px 0;border-right:1px solid var(--border);width:370px}
+.sidebar-content{padding:40px 28px}
+.contacts-title,.conts-typ{color:var(--text)}
+.contacts-linl{color:var(--accent)}
+.contacts-linl:hover{color:#19b58e}
+.skills-list-dubl{color:var(--text-muted);margin-left:-24px}
+.back-btn{margin:20px}
+.back-btn a{font-size:14px;text-decoration:none;color:var(--text);background:var(--card);border:1px solid var(--border);padding:8px 12px;border-radius:10px}
+.back-btn a:hover{text-decoration:underline;border-color:var(--accent)}
+.back{display:flex;align-items:center;gap:6px}
+.back::before{content:"";display:block;width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:10px solid var(--accent)}
+.prof-picture{width:100%;height:auto;object-fit:cover;border-radius:12px;box-shadow:var(--shadow)}
+@media (max-width:992px){.wrapper{flex-direction:column}.sidebar{width:100%;border-right:0;border-bottom:1px solid var(--border)}.my-content{padding:32px 22px}}
+@media (max-width:576px){.my-name{font-size:32px}.my-profesion{font-size:12px}.actions{flex-direction:column;align-items:stretch}}
